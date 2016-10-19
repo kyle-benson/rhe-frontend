@@ -1,2 +1,6 @@
 # rhe-frontend
 An event agenda application for content delivery.
+
+# run this project
+$ npm install
+$ grunt
