@@ -1,13 +1,3 @@
-var sponsors = [
-	{ "sponsor" : "Carahsoft", "contact" : "Natalie Gregory", "email" : "natalie.gregory@carahsoft.com" },
-	{ "sponsor" : "Dell", "contact" : "Steve Harris", "email" : "steve_harris@dell.com" },
-	{ "sponsor" : "DLT", "contact" : "Joe Perrino", "email" : "joe.perrino@dlt.com" },
-	{ "sponsor" : "Emergent", "contact" : "Austin Wineholt", "email" : "awineholt@emergent360.com" },
-	{ "sponsor" : "Immix Group", "contact" : "David Tong", "email" : "david_tong@immixgroup.com" },
-	{ "sponsor" : "ShadowSoft", "contact" : "Michael Eith", "email" : "meith@shadow-soft.com" },
-	{ "sponsor" : "Synnex", "contact" : "Jason Weathers", "email" : "jasonw@synnex.com" }
-];
-
 var speakers = [
 	{ "speaker" : "Michelle Davis", "email" : "micdavis@redhat.com" },
 	{ "speaker" : "Toan Do", "email" : "tdo@redhat.com" },

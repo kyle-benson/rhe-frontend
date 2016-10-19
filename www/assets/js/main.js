@@ -4,14 +4,12 @@ var _currentRoom = "";
 var _dailyAgenda = null;
 var _breakoutSessions = null;
 var _speakers = null;
-var _sponsors = null;
 
 // HARD CODED TO THE LOCAL DATA FILE
 _dailyAgenda = dailyAgenda;
 _breakoutSessions = breakoutSessions;
 _breakoutSchedules = breakoutSchedules;
 _speakers = speakers;
-_sponsors = sponsors;
 
 
 $("#btnCaptureImage").on("click", capturePhoto);
@@ -94,26 +92,6 @@ function scheduleListRenderFunction(sessionList){
 	_html += "<h1>More Information</h1><p>" + _spkrs + "</p>";
 
 	return _html;
-}
-
-function getSponsorsList(){
-	var _sponsorList = _sponsors;
-	Helper.bindListView ("#sponsorList", _sponsorList, sponsorListRenderFunction, "", true);
-	return;
-}
-
-function sponsorListRenderFunction (sponsorListItem){
-	_html = "";
-	_sponsorName = sponsorListItem.sponsor;
-	_sponsorContact = sponsorListItem.contact;
-	_sponsorEmail = sponsorListItem.email;
-
-	_html += "<h2>" + _sponsorName + "</h2>";
-	_html += "<p><strong>" + _sponsorContact + "</strong></p>";
-	_html += "<p><strong>" + _sponsorEmail + "</strong></p>";
-
-	return _html;
-
 }
 
 function getSpeakerList() {
