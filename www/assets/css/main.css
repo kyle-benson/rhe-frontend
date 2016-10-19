@@ -1,0 +1,60 @@
+/* Reset CSS */
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+	margin: 0;
+	padding: 0;
+}
+
+/* Worklight container div */
+/*
+body {
+	height: 460px;
+	margin: 0 auto;
+	width: 320px;
+}
+*/
+
+.storageIcon {
+	float:right;
+}
+
+.foot {
+	bottom: 0; 
+	position: absolute !important; 
+	top: auto !important; 
+	width: 100%;
+}
+
+.splashBG {
+	background-color:#226600;
+}
+
+IMG.splashImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+P.splashMain {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 150%;
+    font-style:normal;
+    color: #fff;
+	text-align: center;
+}
+
+P.splashSub {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 200%;
+    font-style:italic;
+    color: #fff;
+	text-align: center;
+
+}
+
+.ui-page .ui-content .ui-listview .ui-li-desc {
+    white-space : normal;
+}​
