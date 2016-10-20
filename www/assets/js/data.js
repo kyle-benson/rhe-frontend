@@ -1,12 +1,30 @@
-var speakers = [
-	{ "speaker" : "", "email" : "" },
-	{ "speaker" : "", "email" : "" },
-	{ "speaker" : "", "email" : "" },
-	{ "speaker" : "", "email" : "" },
-	{ "speaker" : "", "email" : "" },
-	{ "speaker" : "", "email" : "" },
-	{ "speaker" : "", "email" : "" }
+var cam_speakers = [
+	{ "speaker" : "Bob Roselli", "email" : "broselli@redhat.com" },
+	{ "speaker" : "Christine Hanchett", "email" : "chanchet@redhat.com" },
+	{ "speaker" : "Denis McCarthy", "email" : "dmccarth@redhat.com" },
+	{ "speaker" : "Ed Siu", "email" : "esiu@redhat.com" },
+	{ "speaker" : "Kathleen Cunningham", "email" : "kcunning@redhat.com" },
+	{ "speaker" : "Kyle Jensen", "email" : "kjensen@redhat.com" },
+	{ "speaker" : "Lori Parker", "email" : "loparker@redhat.com" },
+	{ "speaker" : "Mark Schoonmaker", "email" : "mschoonm@redhat.com" },
+	{ "speaker" : "Mary Ann Bilohlavek", "email" : "mbilohla@redhat.com" },
+	{ "speaker" : "Pam Wittner", "email" : "pdalexan@redhat.com" },
+	{ "speaker" : "Rick Stahovec", "email" : "rstahove@redhat.com" },
+	{ "speaker" : "Sherri Iceton", "email" : "siceton@redhat.com" },
+	{ "speaker" : "Sterling Mead", "email" : "smead@redhat.com" },
+	{ "speaker" : "Steve Gamelin", "email" : "sgamelin@redhat.com" },
+	{ "speaker" : "Wayne Rhone", "email" : "wrhone@redhat.com" }
 ];
+
+var csa_speakers = [
+	{ "speaker" : "Anita Devadason", "email" : "adevadas@redhat.com" },
+	{ "speaker" : "Frank Hum", "email" : "fhum@redhat.com" },
+	{ "speaker" : "Kevin Chin", "email" : "kchin@redhat.com" },
+	{ "speaker" : "Kyle Benson", "email" : "kbenson@redhat.com" },
+	{ "speaker" : "Maã Shepsu Menåb Nuíríãnkh", "email" : "mnuirian@redhat.com" },
+	{ "speaker" : "Manny Evangelista", "email" : "mevangel@redhat.com" },
+	{ "speaker" : "Michael Surbey", "email" : "msurbey@redhat.com" }
+]
 
 var dailyAgenda = {
 	monday 		: [

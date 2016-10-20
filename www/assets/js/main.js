@@ -3,13 +3,15 @@ var _currentRoom = "";
 
 var _dailyAgenda = null;
 var _breakoutSessions = null;
-var _speakers = null;
+var _camSpeakers = null;
+var _csaSpeakers = null;
 
 // HARD CODED TO THE LOCAL DATA FILE
 _dailyAgenda = dailyAgenda;
 _breakoutSessions = breakoutSessions;
 _breakoutSchedules = breakoutSchedules;
-_speakers = speakers;
+_camSpeakers = cam_speakers;
+_csaSpeakers = csa_speakers;
 
 
 $("#btnCaptureImage").on("click", capturePhoto);
@@ -39,7 +41,8 @@ $("#sessionList").on ("click", "li", function (e) {
 });
 
 
-$("#pageSpeakers").on("pageshow", getSpeakerList );
+$("#pageSpeakers").on("pageshow", getCAMSpeakerList );
+$("#pageSpeakers").on("pageshow", getCSASpeakerList );
 $("#pageSponsors").on("pageshow", getSponsorsList );
 
 // Get Agenda
@@ -61,15 +64,8 @@ function agendaRenderFunction(itemList) {
 	_html += "<h2>" + _topic + "</h2>";
 	_html += "<p><strong>" + _room + "</strong></p>";
 	_html += "<p><strong>" + _speakers + "</strong></p>";
-	//_html += "<p class=\"ui-li-aside\"><strong>" + _time + "</strong></p>";
 
 	return _html;
-/*
-<h2>Stephen Weber</h2>
-<p><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
-<p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
-<p class="ui-li-aside"><strong>6:24</strong>PM</p>
-*/
 }
 
 function getSchedules (session) {
@@ -94,9 +90,15 @@ function scheduleListRenderFunction(sessionList){
 	return _html;
 }
 
-function getSpeakerList() {
-	var _speakerList = _speakers;
+function getCAMSpeakerList() {
+	var _speakerList = _camSpeakers;
 	Helper.bindListView ("#speakerList", _speakerList, speakerListRenderFunction, "", true);
+	return;
+}
+
+function getCSASpeakerList() {
+	var _speakerList = _csaSpeakers;
+	Helper.bindListView ("#csaSpeakerList", _speakerList, speakerListRenderFunction, "", true);
 	return;
 }
 
@@ -105,8 +107,8 @@ function speakerListRenderFunction (speakerListItem){
 	var _speakerName = speakerListItem.speaker;
 	var _email = speakerListItem.email;
 
-	_html += "<h2>" + _speakerName + "</h2>";
-	_html += "<p><strong>" + _email + "</strong></p>";
+	_html += "<h3>" + _speakerName + "</h3>";
+	_html += "<p>" + _email + "</p>";
 
 	return _html;
 }
