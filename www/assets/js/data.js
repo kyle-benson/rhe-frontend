@@ -1,10 +1,11 @@
 var speakers = [
-	{ "speaker" : "Michelle Davis", "email" : "micdavis@redhat.com" },
-	{ "speaker" : "Toan Do", "email" : "tdo@redhat.com" },
-	{ "speaker" : "Nathan Jones", "email" : "njones@redhat.com" },
-	{ "speaker" : "Tim MIller", "email" : "timiller@redhat.com" },
-	{ "speaker" : "Michael Surbey", "email" : "msurbey@redhat.com" },
-	{ "speaker" : "Jim Tyrell", "email" : "jtyrrell@redhat.com" }
+	{ "speaker" : "", "email" : "" },
+	{ "speaker" : "", "email" : "" },
+	{ "speaker" : "", "email" : "" },
+	{ "speaker" : "", "email" : "" },
+	{ "speaker" : "", "email" : "" },
+	{ "speaker" : "", "email" : "" },
+	{ "speaker" : "", "email" : "" }
 ];
 
 var dailyAgenda = {
