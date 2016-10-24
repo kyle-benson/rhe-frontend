@@ -2,7 +2,10 @@
   "name": "rhe-frontend",
   "private": true,
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "connect": "*",
+    "serve-static": "*"
+  },
   "devDependencies": {
     "grunt-contrib-clean": "~0.5.0",
     "grunt-newer": "~0.5.4",
