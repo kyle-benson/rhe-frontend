@@ -87,6 +87,7 @@ var breakoutSessions = [
 	{ id : "security", "session" : "Security", "description" : ""},
 	{ id : "gluster", "session" : "Storage - Gluster", "description" : ""},
 	{ id : "ceph", "session" : "Storage - Ceph", "description" : ""},
+	{ id : "sat", "session" : "Red Hat Satellite", "description" : ""}
 ];
 
 var breakoutSchedules = {
@@ -344,5 +345,25 @@ var breakoutSchedules = {
 			"probe" : "",
 			"info" : ""
 		}
+	],
+	"sat" : [
+		{
+			"what" : "<p>Red Hat Satellite is a system management solution that makes Red Hat infrastructure easier to deploy, scale, and manage across physical, virtual, " +
+			          "and cloud environments. Satellite helps users provision, configure, and update systems to ensure they are running efficiently, securely, and in compliance " +
+								"with various standards. Red Hat Satellite includes: Red Hat Satellite Server. Red Hat Satellite Capsule Server. Smart Management Add-On. By automating most " +
+								"tasks related to maintaining systems, Satellite helps organizations increase efficiency, reduces operational costs, and enables IT to better respond to " +
+								"strategic business needs.</p>",
+			"use" : "<p><ul><li>Any Red Hat Enterprise Linux customer (typically with 20 or more RHEL systems) looking to lower the total cost of ownership.</li>" +
+			        "<li>Customers with concerns around security and compliance, slow response to business needs, high administration costs, and limited scalability.</li></ul></p>",
+			"probe" : "<p><ol><li>How do you plan to manage your Red Hat Enterprise Linux systems?</li>" +
+			          "<li>Do your curent methods for management provide you with an audit trail and reporting of failed actions?</li>" +
+								"<li>Do you use any tools today to help manage the configuration of your various Red Hat systems?</li>" +
+								"<li>How important is it to maintain standards in system configuration?</li>" +
+								"<li>Would it be helpful to consistently apply patches and configuration changes across your Linux environment?</li>" +
+								"<li>Would you like to reduce the time spent by your LInux administrators doing low-value tasks?</li></ol></p>",
+			"info" : "<p><ul><li><a href='http://red.ht/2dGE3B4' target='blank'>Red Hat Satellite</a></li>" +
+               "<li><a href='http://red.ht/2eGtSQc' target='blank'>Management Portfolio</a></li></ul></p>"
+		}
 	]
+
 };
