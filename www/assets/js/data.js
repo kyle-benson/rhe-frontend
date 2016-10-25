@@ -208,18 +208,18 @@ var breakoutSchedules = {
 	],
 	"eap" : [
 		{
-			"what" : 	"Red Hat JBoss Enterprise Application Platform (EAP) is the only choice for organizations seeking an open source, market leading Java EE application platform. " +
+			"what" : 	"<p>Red Hat JBoss Enterprise Application Platform (EAP) is the only choice for organizations seeking an open source, market leading Java EE application platform. " +
 								"Organizations standardize on JBoss EAP in order to gain efficiencies from their existing Java applications as well as establish a foundation for Java apps deployed " +
 								"in cloud environments, containers, microservices architectures, and using DevOps methodologies. Additionally many organizations make the change to JBoss EAP to " +
-								"realize signifigant decreases in total cost of ownership (TCO), while gaining the freedom to move between vendors by coding to standards." +
-								"</br></br>Key Advantages:</br>" +
-								"- Modular platform</br>" +
-								"- Lightweight requirements</br>" +
-								"- High Performance</br>" +
-								"- Extremely fast startup times</br>" +
-								"- Enterprise grade reliability, security and compliance</br>" +
-								"- Adherence to standards</br>" +
-								"- Avoidance of vendor lock in</br>",
+								"realize signifigant decreases in total cost of ownership (TCO), while gaining the freedom to move between vendors by coding to standards.</p>" +
+								"<p><ul><u>Key Advantages:</u>" +
+								"<li>Modular platform</li>" +
+								"<li>Lightweight requirements</li>" +
+								"<li>High Performance</li>" +
+								"<li>Extremely fast startup times</li>" +
+								"<li>Enterprise grade reliability, security and compliance</li>" +
+								"<li>Adherence to standards</li>" +
+								"<li>Avoidance of vendor lock in</li></ul></p>",
 			"use" : 	"JBoss EAP is well-suited for organizations with demanding reliability, security, and compliance requirements that need developer-friendly technology, high productivity, and flexible deployment. " +
 								" Organizations that use JBoss EAP can fully support a wide range of Java applications, from HTML5 mobile applications to microservices apps to highly transactional applications that use the Java EE programming approach. " +
 								"JBoss EAP helps organizations deliver business value more quickly and with greater flexibility, resulting in lower costs, fast and easy scale-out, and reduced IT complexity.</br></br>" +
