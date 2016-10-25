@@ -190,16 +190,16 @@ var breakoutSchedules = {
 	],
 	"cdk" : [
 		{
-			"what" : 	"Red Hat Container Development Kit provides a pre-built Container Development Environment based on Red Hat Enterprise Linux to help you develop container-based (sometimes called Docker) applications quickly. " +
-								" The containers you build can be easily deployed on any Red Hat container host or platform, including: " +
-								"Red Hat Enterprise Linux, Red Hat Enterprise Linux Atomic Host, and our platform-as-a-service solution, OpenShift Enterprise 3.",
-			"use" : 	"The Container Development Kit provides a pre-built, single-machine OpenShift 3 environment, so you can try the latest version of the OpenShift platform-as-a-service that integrates " +
+			"what" : 	"<p>Red Hat Container Development Kit provides a pre-built Container Development Environment based on Red Hat Enterprise Linux to help you develop container-based (sometimes called Docker) applications quickly. " +
+								"The containers you build can be easily deployed on any Red Hat container host or platform, including: " +
+								"Red Hat Enterprise Linux, Red Hat Enterprise Linux Atomic Host, and our platform-as-a-service solution, OpenShift Enterprise 3.</p>",
+			"use" : 	"<p><ul><li>The Container Development Kit provides a pre-built, single-machine OpenShift 3 environment, so you can try the latest version of the OpenShift platform-as-a-service that integrates " +
 								"support for docker-formatted containers and Kubernetes. When you bring up the rhel-ose Vagrantfile, OpenShift is started and provisioned. " +
-								"</br></br>To help you get started building applications, a number of OpenShift templates are included. You can access the OpenShift Web console from your browser or work from the CLI using the oc command to deploy container applications. " +
-								"OpenShift is pre-configured with a local Docker registry available and a local version of Kubernetes running, so you can test the full experience in a self-contained environment." +
-								"To save you from having to assemble a container development environment from scratch, Container Development Kit delivers the latest container tools in a Red Hat Enterprise Linux virtual " +
+								"To help you get started building applications, a number of OpenShift templates are included. You can access the OpenShift Web console from your browser or work from the CLI using the oc command to deploy container applications. " +
+								"OpenShift is pre-configured with a local Docker registry available and a local version of Kubernetes running, so you can test the full experience in a self-contained environment.</li>" +
+								"<li>To save you from having to assemble a container development environment from scratch, Container Development Kit delivers the latest container tools in a Red Hat Enterprise Linux virtual " +
 								"machine that you can use on your Mac OS X, Microsoft Windows, or Red Hat Enterprise Linux system. In addition, you have your choice of virtualization platforms (VirtualBox, Hyper-V, and " +
-								"the Linux KVM/libvirt hypervisors are all supported). All of the VM configuration details on your system are handled for you by Vagrant, an open-source tool for creating and distributing portable and reproducible development environments.",
+								"the Linux KVM/libvirt hypervisors are all supported). All of the VM configuration details on your system are handled for you by Vagrant, an open-source tool for creating and distributing portable and reproducible development environments.</li></ul></p>",
 			"probe" : "N/A",
 			"info" : 	"<p><ul><li><a href='http://developers.redhat.com/products/cdk/overview/' target='_blank'>Red Hat Container Development Kit</a></li>" +
 								"<li><a href='http://developers.redhat.com/blog/2016/06/01/red-hat-cdk-installation-in-just-minutes/' target='_blank'>Blog - Red Hat CDK installation in just minutes!</a></li>" +
