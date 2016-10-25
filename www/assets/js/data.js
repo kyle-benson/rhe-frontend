@@ -87,6 +87,8 @@ var breakoutSessions = [
 	{ id : "security", "session" : "Security", "description" : ""},
 	{ id : "gluster", "session" : "Storage - Gluster", "description" : ""},
 	{ id : "ceph", "session" : "Storage - Ceph", "description" : ""},
+	{ id : "consulting", "session" : "Red Hat Consulting", "description": ""},
+	{ id : "government", "session" : "Red Hat Solutions for Government", "description": ""}
 ];
 
 var breakoutSchedules = {
@@ -145,9 +147,9 @@ var breakoutSchedules = {
 								"<li>Do you have unused software assigned to virtual machines that are not in use?</li>" +
 								"<li>Can you automate the provisioning of a multi-virtual machine service?</li>" +
 								"<li>Can you automate the compliance of virtual machines and powered-off templates, and apply new governance to changing standards?</li></ol></p>",
-			"info" : "<p><ul><li><a href='http://red.ht/2ekDDTr' target='blank'>Red Hat CloudForms</a></li>" +
-			          "<li><a href='http://bit.ly/2eIsDz5' target='blank'>Managing Your Private Cloud</a></li>" +
-								"<li><a href='http://red.ht/2eGtSQc' target='blank'>Management Portfolio</a></li></ul></p>"
+			"info" : "<p><ul><li><a href='http://red.ht/2ekDDTr' target='_blank'>Red Hat CloudForms</a></li>" +
+			          "<li><a href='http://bit.ly/2eIsDz5' target='_blank'>Managing Your Private Cloud</a></li>" +
+								"<li><a href='http://red.ht/2eGtSQc' target='_blank'>Management Portfolio</a></li></ul></p>"
 		}
 	],
 	"containers" : [
@@ -169,8 +171,8 @@ var breakoutSchedules = {
 								"What benefits do you hope to achieve by adopting container technology?</br></br>" +
 								"What concerns do you have about container technology?",
 			"info" : 	"<p><ul><li><a href='www.redhat.com/containers'target='blank'>Containers</a></li>" +
-								"<li><a href='http://bit.ly/2eongXM'>Why containers?</a></li>" +
-								"<li><a href='http://bit.ly/2ee0Ho2'>Why Red Hat containers?</a></li></ul></p>"
+								"<li><a href='http://bit.ly/2eongXM' target='_blank'>Why containers?</a></li>" +
+								"<li><a href='http://bit.ly/2ee0Ho2' target='_blank'>Why Red Hat containers?</a></li></ul></p>"
 			}
 	],
 	"cdk" : [
@@ -186,9 +188,9 @@ var breakoutSchedules = {
 								"machine that you can use on your Mac OS X, Microsoft Windows, or Red Hat Enterprise Linux system. In addition, you have your choice of virtualization platforms (VirtualBox, Hyper-V, and " +
 								"the Linux KVM/libvirt hypervisors are all supported). All of the VM configuration details on your system are handled for you by Vagrant, an open-source tool for creating and distributing portable and reproducible development environments.",
 			"probe" : "N/A",
-			"info" : 	"<p><ul><li><a href='http://developers.redhat.com/products/cdk/overview/'>Red Hat Container Development Kit</a></li>" +
-								"<li><a href='http://developers.redhat.com/blog/2016/06/01/red-hat-cdk-installation-in-just-minutes/'>Blog - Red Hat CDK installation in just minutes!</a></li>" +
-								"<li><a href='http://developers.redhat.com/promotions/docker-cheatsheet/'>Container Cheet Sheet</a></li></ul></p>"
+			"info" : 	"<p><ul><li><a href='http://developers.redhat.com/products/cdk/overview/' target='_blank'>Red Hat Container Development Kit</a></li>" +
+								"<li><a href='http://developers.redhat.com/blog/2016/06/01/red-hat-cdk-installation-in-just-minutes/' target='_blank'>Blog - Red Hat CDK installation in just minutes!</a></li>" +
+								"<li><a href='http://developers.redhat.com/promotions/docker-cheatsheet/' target='_blank'>Container Cheet Sheet</a></li></ul></p>"
 		}
 	],
 	"eap" : [
@@ -221,9 +223,9 @@ var breakoutSchedules = {
 								"Have you recently experienced demands to develop, deploy, and update your systems and processes more quickly?</br></br>" +
 								"What are your plans to accommodate growing IT requests from your customers?</br></br>" +
 								"Do you plan on expanding your cloud and virtualization strategies in the future?",
-			"info" : 	"<p><ul><li><a href='https://www.redhat.com/en/technologies/jboss-middleware/application-platform'>Red Hat JBoss Enterprise Application Platform</a></li>" +
-								"<li><a href='https://www.redhat.com/en/resources/red-hat-jboss-enterprise-application-platform-technology-overview'>Technology Brief</a></li>" +
-								"<li><a href='https://www.redhat.com/en/insights/devops'>Innovate faster with DevOps</a></li></ul></p>"
+			"info" : 	"<p><ul><li><a href='https://www.redhat.com/en/technologies/jboss-middleware/application-platform' target='_blank'>Red Hat JBoss Enterprise Application Platform</a></li>" +
+								"<li><a href='https://www.redhat.com/en/resources/red-hat-jboss-enterprise-application-platform-technology-overview' target='_blank'>Technology Brief</a></li>" +
+								"<li><a href='https://www.redhat.com/en/insights/devops' target='_blank'>Innovate faster with DevOps</a></li></ul></p>"
 		}
 	],
 	"open" : [
@@ -248,11 +250,11 @@ var breakoutSchedules = {
 								"- RHEL for IBM zSystems FASTRAX</br>" +
 								"- RHEL Atomic Host and Containers",
 			"probe" : "N/A",
-			"info" : 	"<p><ul><li><a href='https://www.redhat.com/open'>OPEN</a></li>" +
-								"<li><a href='https://partnercenter.force.com/s/training_OPEN_brochure.pdf'>OPEN Brochure</a></li>" +
-								"<li><a href='https://partnercenter.force.com/s/Howtoguide-accessandregisterforRedHatOPENpartnertraining.pdf?v=2'>How to Access OPEN</a></li>" +
-								"<li><a href='http://bit.ly/1vWKVB2'>OPEN Course Catalog</a></li>" +
-								"<li><a href='https://partner.redhat.com'>Red Hat Connect for Business Partners</a></li></ul></p>"
+			"info" : 	"<p><ul><li><a href='https://www.redhat.com/open' target='_blank'>OPEN</a></li>" +
+								"<li><a href='https://partnercenter.force.com/s/training_OPEN_brochure.pdf' target='_blank>OPEN Brochure</a></li>" +
+								"<li><a href='https://partnercenter.force.com/s/Howtoguide-accessandregisterforRedHatOPENpartnertraining.pdf?v=2' target='_blank'>How to Access OPEN</a></li>" +
+								"<li><a href='http://bit.ly/1vWKVB2' target='_blank'>OPEN Course Catalog</a></li>" +
+								"<li><a href='https://partner.redhat.com' target='_blank'>Red Hat Connect for Business Partners</a></li></ul></p>"
 		}
 	],
 	"ocp" : [
@@ -284,25 +286,28 @@ var breakoutSchedules = {
 	],
 	"security" : [
 		{
-			"what" : "<u>The mission of Red Hat Product Security is to:</u>" +
-							 "• Help protect customers from meaningful security concerns when using Red Hat products and services." +
-							 "• Investigate, track, and explain security issues that may affect users of Red Hat supported products and services." +
-							 "• Be the point of contact for customers, users, and researchers who find security issues in our products and services." +
-							 "• Publish the procedures for dealing with security issues in our products and services." +
-							 "• Provide timely security fixes, advisories, and updates that our customers can easily find, obtain, and understand." +
-							 "• Help customers keep their systems updated to minimize the security risks and provide automated analysis and enforcement of security practices." +
-							 "• Work with other vendors of Linux and open source software to reduce the security risks through information sharing and peer review." +
-							 "The heart of Red Hat's security response capabilities is a carefully designed and thoroughly validated process for managing vulnerabilities." +
-							 "At Red Hat, stable code is backed by a strong security team." +
-							 "<u>Red Hat Product Security ensures Red Hat products are secure by:</u>" +
-							 "• Identifying security issues." +
-							 "• Assessing issue severity." +
-							 "• Creating updates." +
-							 "• Notifying customers." +
-							 "• Distributing updates.",
-			"use" : "",
+			"what" : 	"Unlike proprietary vendors, Red Hat develops software in collaboration with customers from a range of industries, including government and financial services, ensuring that rigorous security protocols are built in. " +
+								"This is one of the reasons why our software meets some of the highest security certifications available under internationally recognized standards like Common Criteria. Security and open source innovation go hand in hand.</br></br>" +
+								"The mission of Red Hat Product Security is to:</br>" +
+								"- Help protect customers from meaningful security concerns when using Red Hat products and services.</br>" +
+								"- Investigate, track, and explain security issues that may affect users of Red Hat supported products and services.</br>" +
+								"- Be the point of contact for customers, users, and researchers who find security issues in our products and services.</br>" +
+								"- Publish the procedures for dealing with security issues in our products and services.</br>" +
+								"- Provide timely security fixes, advisories, and updates that our customers can easily find, obtain, and understand.</br>" +
+								"- Help customers keep their systems updated to minimize the security risks and provide automated analysis and enforcement of security practices.</br>" +
+								"- Work with other vendors of Linux and open source software to reduce the security risks through information sharing and peer review.</br></br>" +
+								"The heart of Red Hat's security response capabilities is a carefully designed and thoroughly validated process for managing vulnerabilities. At Red Hat, stable code is backed by a strong security team.</br></br>" +
+								"Red Hat Product Security ensures Red Hat products are secure by:</br>" +
+								"- Identifying security issues.</br>" +
+								"- Assessing issue severity.</br>" +
+								"- Creating updates.</br>" +
+								"- Notifying customers.</br>" +
+								"- Distributing updates.",
+			"use" : 	"",
 			"probe" : "",
-			"info" : ""
+			"info" : 	"<p><ul><li><a href='https://www.redhat.com/security' target='_blank'>Security Website</a></li>" +
+								"<li><a href='http://red.ht/2dvqXXb' target='_blank'>Government Standards (Certification and Accreditations)</a></li>" +
+								"<li><a href='https://www.redhat.com/en/technologies/guide/it-security' target='_blank'>IT Security Guide</a></li></ul></p>"
 		}
 	],
 	"gluster" : [
@@ -318,14 +323,53 @@ var breakoutSchedules = {
 	],
 	"ceph" : [
 		{
-			"what" : "A robust, massively scalable block and object storage platform for enterprises deploying public or private clouds, Red Hat Ceph Storage is a modern storage system for" +
-							 "the cloud. The product's highly tunable, extensible, and configurable architecture offers mature interfaces for enterprise block and object storage, making it well" +
-							 "suited for archival, rich media, and cloud infrastructure workloads like OpenStack. Red Hat Ceph Storage significantly lowers the cost of storing enterprise data and helps" +
-							 "enterprises manage exponential data growth. Delivered in one self-healing, self-managing platform with no single point of failure, Red Hat Ceph Storage handles data management" +
-							 "so businesses can focus on improving data availability.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+			"what" : 	"A robust, massively scalable block and object storage platform for enterprises deploying public or private clouds, Red Hat Ceph Storage is a modern storage system for the cloud. " +
+								"The product's highly tunable, extensible, and configurable architecture offers mature interfaces for enterprise block and object storage, making it well suited for archival, rich media, " +
+								"and cloud infrastructure workloads like OpenStack. Red Hat Ceph Storage significantly lowers the cost of storing enterprise data and helps enterprises manage exponential data growth. " +
+								"Delivered in one self-healing, self-managing platform with no single point of failure, Red Hat Ceph Storage handles data management so businesses can focus on improving data availability." +
+								"Business Benefits:</br>" +
+								"- Lower cost</br>" +
+								"- Open source</br>" +
+								"- Peace of mind</br>" +
+								"- Proven at web scale</br></br>" +
+								"Technical Benefits:</br>" +
+								"- Massive scalability</br>" +
+								"- Maximum uptime</br>" +
+								"- Reduced maintenance</br>" +
+								"- Operational efficiency</br>",
+			"use" : 	"Deeply Integrated Storage for OpenStack (Nova, Cinder, Manila, Glance, Keystone, Swift).</br>" +
+								"Cost-effective, scalable deployments for big data analytics, multimedia content, cloud applications and large-scale enterprise file stores.</br>" +
+								"Petabyte-scale Storage for objects. Works with industry-standard APIs.",
+			"probe" : "What storage technology are you currently using for your project?</br>" +
+								"Does the technology scale flexibly and cost effectively with commodity hardware?</br>" +
+								"What challenges are you facing with your current storage infrastructure?",
+			"info" : 	"<p><ul>" +
+								"<li><a href='http://www.redhat.com/storage' target='_blank'>Ceph</a></li>" +
+								"<li><a href='http://www.youtube.com/user/redhatstorage' target='_blank'>Youtube</a></li>" +
+								"<li><a href='http://red.ht/cephtestdrive' target='_blank'>Red Hat Storage Test-Drive</a></li>" +
+								"<li><a href='https://engage.redhat.com/gartnermagic-quadrant-storage-s-201610121525' target='_blank'>Gartner Magic Quadrant report - Red Hat named a Visionary</a></li></ul></p>"
+		}
+	],
+	"consulting" : [
+		{
+			"what" : 	"Red Hat Consulting offers more than just technical expertise to help partners when needed.</br></br>" +
+								"Red Hat Consulting offers a wide range of services and support to help government agencies take full advantage of open source solutions in order to maximize the value of Red Hat technologies. " +
+								"Whether agencies are looking to standardize and optimize their existing Red Hat Enterprise Linux environment or are moving to DevOps using containers, Red Hat Consulting can guide customers and " +
+								"partners through a seamless transition with professional services, training, mentoring and knowledge transfer.",
+			"use" : 	"N/A",
+			"probe" : "N/A",
+			"info" : 	"<p><ul><li><a href='https://www.redhat.com/en/services/consulting' target='_blank'>Consulting Website</a></li></ul></p>"
+		}
+	],
+	"government" : [
+		{
+			"what" : 	"Your budget shrinks, but you have to deliver more every year—consolidate, build shared services, increase security, and prepare for emergency situations. " +
+								"The answer? Stable, trustworthy, and secure Red Hat open source solutions.</br></br>" +
+								"Red Hat technologies use the power of open source communities to make you more efficient, meet critical IT demands, and improve service delivery—all without vendor lock-in.",
+			"use" : 	"N/A",
+			"probe" : "N/A",
+			"info" : 	"<p><ul><li><a href='http://www.redhat.com/government' target='_blank'>Government and Public Sector Website</a></li>" +
+								"<li><a href='http://red.ht/2efxThA' target='_blank'>Brochure - Collaborative solutions for Innovative Government</a></li></ul></p>"
 		}
 	]
 };
