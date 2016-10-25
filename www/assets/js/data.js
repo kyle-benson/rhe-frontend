@@ -340,25 +340,25 @@ var breakoutSchedules = {
 	],
 	"security" : [
 		{
-			"what" : 	"Unlike proprietary vendors, Red Hat develops software in collaboration with customers from a range of industries, including government and financial services, ensuring that rigorous security protocols are built in. " +
-								"This is one of the reasons why our software meets some of the highest security certifications available under internationally recognized standards like Common Criteria. Security and open source innovation go hand in hand.</br></br>" +
-								"The mission of Red Hat Product Security is to:</br>" +
-								"- Help protect customers from meaningful security concerns when using Red Hat products and services.</br>" +
-								"- Investigate, track, and explain security issues that may affect users of Red Hat supported products and services.</br>" +
-								"- Be the point of contact for customers, users, and researchers who find security issues in our products and services.</br>" +
-								"- Publish the procedures for dealing with security issues in our products and services.</br>" +
-								"- Provide timely security fixes, advisories, and updates that our customers can easily find, obtain, and understand.</br>" +
-								"- Help customers keep their systems updated to minimize the security risks and provide automated analysis and enforcement of security practices.</br>" +
-								"- Work with other vendors of Linux and open source software to reduce the security risks through information sharing and peer review.</br></br>" +
-								"The heart of Red Hat's security response capabilities is a carefully designed and thoroughly validated process for managing vulnerabilities. At Red Hat, stable code is backed by a strong security team.</br></br>" +
-								"Red Hat Product Security ensures Red Hat products are secure by:</br>" +
-								"- Identifying security issues.</br>" +
-								"- Assessing issue severity.</br>" +
-								"- Creating updates.</br>" +
-								"- Notifying customers.</br>" +
-								"- Distributing updates.",
-			"use" : 	"",
-			"probe" : "",
+			"what" : 	"<p>Unlike proprietary vendors, Red Hat develops software in collaboration with customers from a range of industries, including government and financial services, ensuring that rigorous security protocols are built in. " +
+								"This is one of the reasons why our software meets some of the highest security certifications available under internationally recognized standards like Common Criteria. Security and open source innovation go hand in hand.</p>" +
+								"<p><ul><u>The mission of Red Hat Product Security is to</u>" +
+								"<li>Help protect customers from meaningful security concerns when using Red Hat products and services.</li>" +
+								"- Investigate, track, and explain security issues that may affect users of Red Hat supported products and services.</li>" +
+								"<li>Be the point of contact for customers, users, and researchers who find security issues in our products and services.</li>" +
+								"<li>Publish the procedures for dealing with security issues in our products and services.</li>" +
+								"<li>Provide timely security fixes, advisories, and updates that our customers can easily find, obtain, and understand.</li>" +
+								"<li>Help customers keep their systems updated to minimize the security risks and provide automated analysis and enforcement of security practices.</li>" +
+								"<li>Work with other vendors of Linux and open source software to reduce the security risks through information sharing and peer review.</li></ul></p>" +
+								"<p>The heart of Red Hat's security response capabilities is a carefully designed and thoroughly validated process for managing vulnerabilities. At Red Hat, stable code is backed by a strong security team.</p>" +
+								"<p><ul><u>Red Hat Product Security ensures Red Hat products are secure by</u>:" +
+								"<li>Identifying security issues.</li>" +
+								"<li>Assessing issue severity.</li>" +
+								"<li>Creating updates.</li>" +
+								"<li>Notifying customers.</li>" +
+								"<li>Distributing updates.</li></ul></p>",
+			"use" : 	"<p>N/A</p>",
+			"probe" : "<p>N/A</p>",
 			"info" : 	"<p><ul><li><a href='https://www.redhat.com/security' target='_blank'>Security Website</a></li>" +
 								"<li><a href='http://red.ht/2dvqXXb' target='_blank'>Government Standards (Certification and Accreditations)</a></li>" +
 								"<li><a href='https://www.redhat.com/en/technologies/guide/it-security' target='_blank'>IT Security Guide</a></li></ul></p>"
