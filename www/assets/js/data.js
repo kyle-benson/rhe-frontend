@@ -220,22 +220,22 @@ var breakoutSchedules = {
 								"<li>Enterprise grade reliability, security and compliance</li>" +
 								"<li>Adherence to standards</li>" +
 								"<li>Avoidance of vendor lock in</li></ul></p>",
-			"use" : 	"JBoss EAP is well-suited for organizations with demanding reliability, security, and compliance requirements that need developer-friendly technology, high productivity, and flexible deployment. " +
-								" Organizations that use JBoss EAP can fully support a wide range of Java applications, from HTML5 mobile applications to microservices apps to highly transactional applications that use the Java EE programming approach. " +
-								"JBoss EAP helps organizations deliver business value more quickly and with greater flexibility, resulting in lower costs, fast and easy scale-out, and reduced IT complexity.</br></br>" +
-								"Organizations looking to migrate to a new Java EE app server are key prospects for Red Hat JBoss EAP</br></br>" +
-								"Java developers looking to build microservices or simply more modular Java applications.</br></br>" +
-								"Customers spending too much time and resources on maintaining and updating traditional Java EE monolithic applications.</br></br>" +
-								"Customers looking to decrease the cost associated with hosting their applications.</br></br>" +
-								"Customers looking to avoid vendor lock-in.</br></br>",
-			"probe" : "What types of applications do you have, and how are your current applications used?</br></br>" +
-								"What application servers do you currently use?</br></br>" +
-								"What are your plans for modernizing your older incumbent (legacy) applications?</br></br>" +
-								"Are you thinking of deploying applications in the cloud to gain benefits of elastic scaling and easy provisioning?</br></br>" +
-								"How is your relationship with your current middleware provider(s), and how is your current existing environment working?</br></br>" +
-								"Have you recently experienced demands to develop, deploy, and update your systems and processes more quickly?</br></br>" +
-								"What are your plans to accommodate growing IT requests from your customers?</br></br>" +
-								"Do you plan on expanding your cloud and virtualization strategies in the future?",
+			"use" : 	"<p><ul><li>JBoss EAP is well-suited for organizations with demanding reliability, security, and compliance requirements that need developer-friendly technology, high productivity, and flexible deployment. " +
+								"Organizations that use JBoss EAP can fully support a wide range of Java applications, from HTML5 mobile applications to microservices apps to highly transactional applications that use the Java EE programming approach. " +
+								"JBoss EAP helps organizations deliver business value more quickly and with greater flexibility, resulting in lower costs, fast and easy scale-out, and reduced IT complexity.</li>" +
+								"<li>Organizations looking to migrate to a new Java EE app server are key prospects for Red Hat JBoss EAP</li>" +
+								"<li>Java developers looking to build microservices or simply more modular Java applications.</li>" +
+								"<li>Customers spending too much time and resources on maintaining and updating traditional Java EE monolithic applications.</li>" +
+								"<li>Customers looking to decrease the cost associated with hosting their applications.</li>" +
+								"<li>Customers looking to avoid vendor lock-in.</li></ul></p>",
+			"probe" : "<p><ol><li>What types of applications do you have, and how are your current applications used?</li>" +
+								"<li>What application servers do you currently use?</li>" +
+								"<li>What are your plans for modernizing your older incumbent (legacy) applications?</li>" +
+								"<li>Are you thinking of deploying applications in the cloud to gain benefits of elastic scaling and easy provisioning?</li>" +
+								"<li>How is your relationship with your current middleware provider(s), and how is your current existing environment working?</li>" +
+								"<li>Have you recently experienced demands to develop, deploy, and update your systems and processes more quickly?</li>" +
+								"<li>What are your plans to accommodate growing IT requests from your customers?</li>" +
+								"<li>Do you plan on expanding your cloud and virtualization strategies in the future?</li></ul></p>",
 			"info" : 	"<p><ul><li><a href='https://www.redhat.com/en/technologies/jboss-middleware/application-platform' target='_blank'>Red Hat JBoss Enterprise Application Platform</a></li>" +
 								"<li><a href='https://www.redhat.com/en/resources/red-hat-jboss-enterprise-application-platform-technology-overview' target='_blank'>Technology Brief</a></li>" +
 								"<li><a href='https://www.redhat.com/en/insights/devops' target='_blank'>Innovate faster with DevOps</a></li></ul></p>"
