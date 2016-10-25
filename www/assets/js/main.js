@@ -82,10 +82,10 @@ function scheduleListRenderFunction(sessionList){
 	var _room = sessionList.probe;
 	var _spkrs = sessionList.info;
 
-	_html += "<h1>What Is It?</h1><p class='wrappable'>" + _day + "</p>";
-	_html += "<h1>Common Use Case</h1><p>" + _time + "</p>";
-	_html += "<h1>Probing Question(s)</h1><p>" + _room + "</p>";
-	_html += "<h1>More Information</h1><p>" + _spkrs + "</p>";
+	_html += "<h1>What Is It?</h1><div class='wrappable'>" + _day + "</div>";
+	_html += "<h1>Common Use Case</h1><div class='wrappable'>" + _time + "</div>";
+	_html += "<h1>Probing Question(s)</h1><div class='wrappable'>" + _room + "</div>";
+	_html += "<h1>More Information</h1><div class='wrappable'>" + _spkrs + "</div>";
 
 	return _html;
 }
