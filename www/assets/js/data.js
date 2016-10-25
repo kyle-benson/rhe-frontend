@@ -175,14 +175,14 @@ var breakoutSchedules = {
 								"Containers include the application and all of its dependencies, but share the kernel with other containers. " +
 								"They run as an isolated process in user space on the host operating system. " +
 								"They’re also not tied to any specific infrastructure they can run on any computer, on any infrastructure, and in any cloud.",
-			"use" : "CI/CD: Enable developers to develop and test applications more quickly and within any environment.</br></br>" +
-			 				"DevOps: Break down barriers between Dev and Ops teams to improve the app development process.</br></br>" +
-							"Infrastructure Optimization: Decrease infrastructure costs while increasing its efficiency.",
-			"probe" : "Are you looking to make a move to microservices & hybrid cloud architectures?</br></br>" +
-								"Are you wanting to containerize traditional applications?</br></br>" +
-								"What role do you see containers playing in your IT infrastructure strategy moving forward?</br></br>" +
-								"What benefits do you hope to achieve by adopting container technology?</br></br>" +
-								"What concerns do you have about container technology?",
+			"use" : "<p><ul><u>CI/CD</u><li>Enable developers to develop and test applications more quickly and within any environment.</li>" +
+			 				"<br/><u>DevOps</u><li>Break down barriers between Dev and Ops teams to improve the app development process.</li>" +
+							"<br/><u>Infrastructure Optimization</u><li>Decrease infrastructure costs while increasing its efficiency.</li>",
+			"probe" : "<p><ol><li>Are you looking to make a move to microservices & hybrid cloud architectures?</li>" +
+								"<li>Are you wanting to containerize traditional applications?</li>" +
+								"<li>What role do you see containers playing in your IT infrastructure strategy moving forward?</li>" +
+								"<li>What benefits do you hope to achieve by adopting container technology?</li>" +
+								"<li>What concerns do you have about container technology?</li></ol></p>",
 			"info" : 	"<p><ul><li><a href='www.redhat.com/containers'target='blank'>Containers</a></li>" +
 								"<li><a href='http://bit.ly/2eongXM' target='_blank'>Why containers?</a></li>" +
 								"<li><a href='http://bit.ly/2ee0Ho2' target='_blank'>Why Red Hat containers?</a></li></ul></p>"
@@ -190,16 +190,16 @@ var breakoutSchedules = {
 	],
 	"cdk" : [
 		{
-			"what" : 	"Red Hat Container Development Kit provides a pre-built Container Development Environment based on Red Hat Enterprise Linux to help you develop container-based (sometimes called Docker) applications quickly. " +
-								" The containers you build can be easily deployed on any Red Hat container host or platform, including: " +
-								"Red Hat Enterprise Linux, Red Hat Enterprise Linux Atomic Host, and our platform-as-a-service solution, OpenShift Enterprise 3.",
-			"use" : 	"The Container Development Kit provides a pre-built, single-machine OpenShift 3 environment, so you can try the latest version of the OpenShift platform-as-a-service that integrates " +
+			"what" : 	"<p>Red Hat Container Development Kit provides a pre-built Container Development Environment based on Red Hat Enterprise Linux to help you develop container-based (sometimes called Docker) applications quickly. " +
+								"The containers you build can be easily deployed on any Red Hat container host or platform, including: " +
+								"Red Hat Enterprise Linux, Red Hat Enterprise Linux Atomic Host, and our platform-as-a-service solution, OpenShift Enterprise 3.</p>",
+			"use" : 	"<p><ul><li>The Container Development Kit provides a pre-built, single-machine OpenShift 3 environment, so you can try the latest version of the OpenShift platform-as-a-service that integrates " +
 								"support for docker-formatted containers and Kubernetes. When you bring up the rhel-ose Vagrantfile, OpenShift is started and provisioned. " +
-								"</br></br>To help you get started building applications, a number of OpenShift templates are included. You can access the OpenShift Web console from your browser or work from the CLI using the oc command to deploy container applications. " +
-								"OpenShift is pre-configured with a local Docker registry available and a local version of Kubernetes running, so you can test the full experience in a self-contained environment." +
-								"To save you from having to assemble a container development environment from scratch, Container Development Kit delivers the latest container tools in a Red Hat Enterprise Linux virtual " +
+								"To help you get started building applications, a number of OpenShift templates are included. You can access the OpenShift Web console from your browser or work from the CLI using the oc command to deploy container applications. " +
+								"OpenShift is pre-configured with a local Docker registry available and a local version of Kubernetes running, so you can test the full experience in a self-contained environment.</li>" +
+								"<li>To save you from having to assemble a container development environment from scratch, Container Development Kit delivers the latest container tools in a Red Hat Enterprise Linux virtual " +
 								"machine that you can use on your Mac OS X, Microsoft Windows, or Red Hat Enterprise Linux system. In addition, you have your choice of virtualization platforms (VirtualBox, Hyper-V, and " +
-								"the Linux KVM/libvirt hypervisors are all supported). All of the VM configuration details on your system are handled for you by Vagrant, an open-source tool for creating and distributing portable and reproducible development environments.",
+								"the Linux KVM/libvirt hypervisors are all supported). All of the VM configuration details on your system are handled for you by Vagrant, an open-source tool for creating and distributing portable and reproducible development environments.</li></ul></p>",
 			"probe" : "N/A",
 			"info" : 	"<p><ul><li><a href='http://developers.redhat.com/products/cdk/overview/' target='_blank'>Red Hat Container Development Kit</a></li>" +
 								"<li><a href='http://developers.redhat.com/blog/2016/06/01/red-hat-cdk-installation-in-just-minutes/' target='_blank'>Blog - Red Hat CDK installation in just minutes!</a></li>" +
@@ -208,34 +208,34 @@ var breakoutSchedules = {
 	],
 	"eap" : [
 		{
-			"what" : 	"Red Hat JBoss Enterprise Application Platform (EAP) is the only choice for organizations seeking an open source, market leading Java EE application platform. " +
+			"what" : 	"<p>Red Hat JBoss Enterprise Application Platform (EAP) is the only choice for organizations seeking an open source, market leading Java EE application platform. " +
 								"Organizations standardize on JBoss EAP in order to gain efficiencies from their existing Java applications as well as establish a foundation for Java apps deployed " +
 								"in cloud environments, containers, microservices architectures, and using DevOps methodologies. Additionally many organizations make the change to JBoss EAP to " +
-								"realize signifigant decreases in total cost of ownership (TCO), while gaining the freedom to move between vendors by coding to standards." +
-								"</br></br>Key Advantages:</br>" +
-								"- Modular platform</br>" +
-								"- Lightweight requirements</br>" +
-								"- High Performance</br>" +
-								"- Extremely fast startup times</br>" +
-								"- Enterprise grade reliability, security and compliance</br>" +
-								"- Adherence to standards</br>" +
-								"- Avoidance of vendor lock in</br>",
-			"use" : 	"JBoss EAP is well-suited for organizations with demanding reliability, security, and compliance requirements that need developer-friendly technology, high productivity, and flexible deployment. " +
-								" Organizations that use JBoss EAP can fully support a wide range of Java applications, from HTML5 mobile applications to microservices apps to highly transactional applications that use the Java EE programming approach. " +
-								"JBoss EAP helps organizations deliver business value more quickly and with greater flexibility, resulting in lower costs, fast and easy scale-out, and reduced IT complexity.</br></br>" +
-								"Organizations looking to migrate to a new Java EE app server are key prospects for Red Hat JBoss EAP</br></br>" +
-								"Java developers looking to build microservices or simply more modular Java applications.</br></br>" +
-								"Customers spending too much time and resources on maintaining and updating traditional Java EE monolithic applications.</br></br>" +
-								"Customers looking to decrease the cost associated with hosting their applications.</br></br>" +
-								"Customers looking to avoid vendor lock-in.</br></br>",
-			"probe" : "What types of applications do you have, and how are your current applications used?</br></br>" +
-								"What application servers do you currently use?</br></br>" +
-								"What are your plans for modernizing your older incumbent (legacy) applications?</br></br>" +
-								"Are you thinking of deploying applications in the cloud to gain benefits of elastic scaling and easy provisioning?</br></br>" +
-								"How is your relationship with your current middleware provider(s), and how is your current existing environment working?</br></br>" +
-								"Have you recently experienced demands to develop, deploy, and update your systems and processes more quickly?</br></br>" +
-								"What are your plans to accommodate growing IT requests from your customers?</br></br>" +
-								"Do you plan on expanding your cloud and virtualization strategies in the future?",
+								"realize signifigant decreases in total cost of ownership (TCO), while gaining the freedom to move between vendors by coding to standards.</p>" +
+								"<p><ul><u>Key Advantages:</u>" +
+								"<li>Modular platform</li>" +
+								"<li>Lightweight requirements</li>" +
+								"<li>High Performance</li>" +
+								"<li>Extremely fast startup times</li>" +
+								"<li>Enterprise grade reliability, security and compliance</li>" +
+								"<li>Adherence to standards</li>" +
+								"<li>Avoidance of vendor lock in</li></ul></p>",
+			"use" : 	"<p><ul><li>JBoss EAP is well-suited for organizations with demanding reliability, security, and compliance requirements that need developer-friendly technology, high productivity, and flexible deployment. " +
+								"Organizations that use JBoss EAP can fully support a wide range of Java applications, from HTML5 mobile applications to microservices apps to highly transactional applications that use the Java EE programming approach. " +
+								"JBoss EAP helps organizations deliver business value more quickly and with greater flexibility, resulting in lower costs, fast and easy scale-out, and reduced IT complexity.</li>" +
+								"<li>Organizations looking to migrate to a new Java EE app server are key prospects for Red Hat JBoss EAP</li>" +
+								"<li>Java developers looking to build microservices or simply more modular Java applications.</li>" +
+								"<li>Customers spending too much time and resources on maintaining and updating traditional Java EE monolithic applications.</li>" +
+								"<li>Customers looking to decrease the cost associated with hosting their applications.</li>" +
+								"<li>Customers looking to avoid vendor lock-in.</li></ul></p>",
+			"probe" : "<p><ol><li>What types of applications do you have, and how are your current applications used?</li>" +
+								"<li>What application servers do you currently use?</li>" +
+								"<li>What are your plans for modernizing your older incumbent (legacy) applications?</li>" +
+								"<li>Are you thinking of deploying applications in the cloud to gain benefits of elastic scaling and easy provisioning?</li>" +
+								"<li>How is your relationship with your current middleware provider(s), and how is your current existing environment working?</li>" +
+								"<li>Have you recently experienced demands to develop, deploy, and update your systems and processes more quickly?</li>" +
+								"<li>What are your plans to accommodate growing IT requests from your customers?</li>" +
+								"<li>Do you plan on expanding your cloud and virtualization strategies in the future?</li></ul></p>",
 			"info" : 	"<p><ul><li><a href='https://www.redhat.com/en/technologies/jboss-middleware/application-platform' target='_blank'>Red Hat JBoss Enterprise Application Platform</a></li>" +
 								"<li><a href='https://www.redhat.com/en/resources/red-hat-jboss-enterprise-application-platform-technology-overview' target='_blank'>Technology Brief</a></li>" +
 								"<li><a href='https://www.redhat.com/en/insights/devops' target='_blank'>Innovate faster with DevOps</a></li></ul></p>"
@@ -243,25 +243,25 @@ var breakoutSchedules = {
 	],
 	"open" : [
 		{
-			"what" : 	"Red Hat OPEN is an enablement program created specifically for partners providing role-based training on how to sell and deliver Red Hat products and solutions. " +
+			"what" : 	"<p>Red Hat OPEN is an enablement program created specifically for partners providing role-based training on how to sell and deliver Red Hat products and solutions. " +
 								"The program features self-paced, online learning, combined with online assessments that lead to accreditation. Partners in partner sales, sales engineer, and delivery roles " +
-								"should start their learning journey with Red Hat OPEN, then continue with Red Hat Training and Certification.",
-			"use" : 	"New Courses Available in OPEN:</br>" +
-								"- How to Sell Red Hat Insights</br>" +
-								"- How to Sell Ansible Tower by Red Hat</br>" +
-								"- Automation with Ansible by Red Hat</br>" +
-								"- Red Hat Cloud Suite FASTRAX</br>" +
-								"- Red Hat CloudForms Implementation</br>" +
-								"- Red Hat OpenStack Implementation</br>" +
-								"- App Development with Red Hat Mobile Application Platform</br>" +
-								"- OSGI-Based Development with Red Hat JBoss Fuse</br>" +
-								"- Business Logic Development with Red Hat JBoss BPM Suite</br>" +
-								"- OpenShift 3 Implementation</br>" +
-								"- Application Development with Red Hat OpenShift</br>" +
-								"- RHEL 7 Troubleshooting</br>" +
-								"- RHEL for SAP HANA</br>" +
-								"- RHEL for IBM zSystems FASTRAX</br>" +
-								"- RHEL Atomic Host and Containers",
+								"should start their learning journey with Red Hat OPEN, then continue with Red Hat Training and Certification.</p>",
+			"use" : 	"<p><ul><u>New Courses Available in OPEN</u>" +
+								"<li>How to Sell Red Hat Insights</li>" +
+								"<li>How to Sell Ansible Tower by Red Hat</li>" +
+								"<li>Automation with Ansible by Red Hat</li>" +
+								"<li>Red Hat Cloud Suite FASTRAX</li>" +
+								"<li>Red Hat CloudForms Implementation</li>" +
+								"<li>Red Hat OpenStack Implementation</li>" +
+								"<li>App Development with Red Hat Mobile Application Platform</li>" +
+								"<li>OSGI-Based Development with Red Hat JBoss Fuse</li>" +
+								"<li>Business Logic Development with Red Hat JBoss BPM Suite</li>" +
+								"<li>OpenShift 3 Implementation</li>" +
+								"<li>Application Development with Red Hat OpenShift</li>" +
+								"<li>RHEL 7 Troubleshooting</li>" +
+								"<li>RHEL for SAP HANA</li>" +
+								"<li>RHEL for IBM zSystems FASTRAX</li>" +
+								"<li>RHEL Atomic Host and Containers</li></ul></p>",
 			"probe" : "N/A",
 			"info" : 	"<p><ul><li><a href='https://www.redhat.com/open' target='_blank'>OPEN</a></li>" +
 								"<li><a href='https://partnercenter.force.com/s/training_OPEN_brochure.pdf' target='_blank>OPEN Brochure</a></li>" +
@@ -340,25 +340,25 @@ var breakoutSchedules = {
 	],
 	"security" : [
 		{
-			"what" : 	"Unlike proprietary vendors, Red Hat develops software in collaboration with customers from a range of industries, including government and financial services, ensuring that rigorous security protocols are built in. " +
-								"This is one of the reasons why our software meets some of the highest security certifications available under internationally recognized standards like Common Criteria. Security and open source innovation go hand in hand.</br></br>" +
-								"The mission of Red Hat Product Security is to:</br>" +
-								"- Help protect customers from meaningful security concerns when using Red Hat products and services.</br>" +
-								"- Investigate, track, and explain security issues that may affect users of Red Hat supported products and services.</br>" +
-								"- Be the point of contact for customers, users, and researchers who find security issues in our products and services.</br>" +
-								"- Publish the procedures for dealing with security issues in our products and services.</br>" +
-								"- Provide timely security fixes, advisories, and updates that our customers can easily find, obtain, and understand.</br>" +
-								"- Help customers keep their systems updated to minimize the security risks and provide automated analysis and enforcement of security practices.</br>" +
-								"- Work with other vendors of Linux and open source software to reduce the security risks through information sharing and peer review.</br></br>" +
-								"The heart of Red Hat's security response capabilities is a carefully designed and thoroughly validated process for managing vulnerabilities. At Red Hat, stable code is backed by a strong security team.</br></br>" +
-								"Red Hat Product Security ensures Red Hat products are secure by:</br>" +
-								"- Identifying security issues.</br>" +
-								"- Assessing issue severity.</br>" +
-								"- Creating updates.</br>" +
-								"- Notifying customers.</br>" +
-								"- Distributing updates.",
-			"use" : 	"",
-			"probe" : "",
+			"what" : 	"<p>Unlike proprietary vendors, Red Hat develops software in collaboration with customers from a range of industries, including government and financial services, ensuring that rigorous security protocols are built in. " +
+								"This is one of the reasons why our software meets some of the highest security certifications available under internationally recognized standards like Common Criteria. Security and open source innovation go hand in hand.</p>" +
+								"<p><ul><u>The mission of Red Hat Product Security is to</u>" +
+								"<li>Help protect customers from meaningful security concerns when using Red Hat products and services.</li>" +
+								"- Investigate, track, and explain security issues that may affect users of Red Hat supported products and services.</li>" +
+								"<li>Be the point of contact for customers, users, and researchers who find security issues in our products and services.</li>" +
+								"<li>Publish the procedures for dealing with security issues in our products and services.</li>" +
+								"<li>Provide timely security fixes, advisories, and updates that our customers can easily find, obtain, and understand.</li>" +
+								"<li>Help customers keep their systems updated to minimize the security risks and provide automated analysis and enforcement of security practices.</li>" +
+								"<li>Work with other vendors of Linux and open source software to reduce the security risks through information sharing and peer review.</li></ul></p>" +
+								"<p>The heart of Red Hat's security response capabilities is a carefully designed and thoroughly validated process for managing vulnerabilities. At Red Hat, stable code is backed by a strong security team.</p>" +
+								"<p><ul><u>Red Hat Product Security ensures Red Hat products are secure by</u>:" +
+								"<li>Identifying security issues.</li>" +
+								"<li>Assessing issue severity.</li>" +
+								"<li>Creating updates.</li>" +
+								"<li>Notifying customers.</li>" +
+								"<li>Distributing updates.</li></ul></p>",
+			"use" : 	"<p>N/A</p>",
+			"probe" : "<p>N/A</p>",
 			"info" : 	"<p><ul><li><a href='https://www.redhat.com/security' target='_blank'>Security Website</a></li>" +
 								"<li><a href='http://red.ht/2dvqXXb' target='_blank'>Government Standards (Certification and Accreditations)</a></li>" +
 								"<li><a href='https://www.redhat.com/en/technologies/guide/it-security' target='_blank'>IT Security Guide</a></li></ul></p>"
@@ -366,13 +366,27 @@ var breakoutSchedules = {
 	],
 	"gluster" : [
 		{
-			"what" : "Red Hat Gluster Storage is an open, scalable, reliable, and cost-effective data-management platform that streamlines file and object access across physical, virtual," +
+			"what" : "<p>Red Hat Gluster Storage is an open, scalable, reliable, and cost-effective data-management platform that streamlines file and object access across physical, virtual," +
 							 "and cloud environments. It is a scale-out file store with a straightfoward architecture suitable for public, private, and hybrid cloud environments. Red Hat Gluster Storage" +
 							 "offers mature network file system (NFS), server message block (SMB), and Hadoop distributed file system (HDFS) interfaces and is well suited for analytics, rich media, file" +
-							 "sync and share, and virtualization workloads.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+							 "sync and share, and virtualization workloads.</p>" +
+							 "<p><ul><u>Key Advantages</u><li>Open source</li>" +
+							 "<li>Scalable, with no Metadata Server</li>" +
+							 "<li>Multi-protocol access to the same data</li>" +
+							 "<li>Modular</li>" +
+							 "<li>Always On, Highly Available</li></ul></p>",
+			"use" : "<p><ul><li>Cost-effective, scalable deployments for analytics:  machine log data analytics, GeoSpatial, big data analytics</li>" +
+			        "<li>Enterprise File Sharing:  Media streaming, Active archives</li>" +
+							"<li>Support the storage demands of virtual machine sprawl with commodity x86 servers instead of more complex options.</li>" +
+							"<li>Rich Media & Archival</li>" +
+							"<li>File Sync & Share</li></ul></p>",
+			"probe" : "<p><ol><li>What storage technology are you currently using for X project?</li>" +
+			          "<li>Does the technology scale flexibly and cost effectively with commodity hardware?</li>" +
+								"<li>What challenges are you facing with your current storage infrastructure?</li></ol></p>",
+			"info" : "<p><ul><li><a href='http://red.ht/2f5laxs' target='blank'>Red Hat Storage</a></li>" +
+							 "<li><a href='http://red.ht/2eDY7pg' target='blank'>Test-Drive Storage</a></li>" +
+							 "<li><a href='http://red.ht/2eDY2lt' target='blank'>Gartner File Systems And Object Storage</a></li>" +
+               "<li><a href='http://bit.ly/2e8mc6X' target='blank'>Red Hat Storage Story</a></li></ul></p>"
 		}
 	],
 	"ceph" : [
