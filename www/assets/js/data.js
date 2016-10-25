@@ -272,43 +272,43 @@ var breakoutSchedules = {
 	],
 	"ocp" : [
 		{
-			"what" : 	"Red Hat OpenShift Container Platform helps organizations develop, deploy, and manage existing and container-based applications seamlessly across physical, virtual, and public cloud infrastructures. " +
-								"Built on proven open source technologies, Red Hat OpenShift Container Platform helps application development and IT operations teams modernize applications, deliver new services, and accelerate development processes.</br></br>" +
-								"Available On-Premise:</br>" +
-								"- OpenShift Container Local</br>" +
-								"- OpenShift Container Lab</br>" +
-								"- OpenShift Container Platform</br></br>" +
-								"Available Cloud-based:</br>" +
-								"- OpenShift Online</br>" +
-								"- OpenShift Dedicated</br></br>" +
-								"Key Advantages:</br>" +
-								"- Expedite innovation to market</br>" +
-								"- Accelerate application development</br>" +
-								"- Increase operational efficiency</br>" +
-								"- Enable DevOps",
-			"use" : 	"Development Teams:</br>" +
-								"Red Hat OpenShift Container Platform provides developers with an optimal platform for provisioning, building, and deploying applications and their components in a self-service fashion. " +
+			"what" : 	"<p>Red Hat OpenShift Container Platform helps organizations develop, deploy, and manage existing and container-based applications seamlessly across physical, virtual, and public cloud infrastructures. " +
+								"Built on proven open source technologies, Red Hat OpenShift Container Platform helps application development and IT operations teams modernize applications, deliver new services, and accelerate development processes.</p>" +
+								"<p><ul><u>Available On-Premise</u>" +
+								"<li>OpenShift Container Local</li>" +
+								"<li>OpenShift Container Lab</li>" +
+								"<li>OpenShift Container Platform</li>" +
+								"<br/><u>Available Cloud-based</u>" +
+								"<li>OpenShift Online</li>" +
+								"<li>OpenShift Dedicated</li>" +
+								"<br/><u>Key Advantages</u>" +
+								"<li>Expedite innovation to market</li>" +
+								"<li>Accelerate application development</li>" +
+								"<li>Increase operational efficiency</li>" +
+								"<li>Enable DevOps</li></ul></p>",
+			"use" : 	"<p><ul><u>Development Teams</u>" +
+								"<li>Red Hat OpenShift Container Platform provides developers with an optimal platform for provisioning, building, and deploying applications and their components in a self-service fashion. " +
 								"With automated workflows like our source-to-image (S2I) process, it’s easy to get source code from version control systems into ready-to-run, docker-formatted container images." +
-								"OpenShift Container Platform integrates with continuous integration and delivery tools, making it an ideal solution for any development team.</br></br>" +
-								"Operations Teams:</br>" +
-								"OpenShift Container Platform gives IT operations a secure, enterprise-grade environment that provides policy-based control and automation for container-based applications in production. " +
+								"OpenShift Container Platform integrates with continuous integration and delivery tools, making it an ideal solution for any development team.</li>" +
+								"<br/><u>Operations Teams</u>" +
+								"<li>OpenShift Container Platform gives IT operations a secure, enterprise-grade environment that provides policy-based control and automation for container-based applications in production. " +
 								"Cluster services, scheduling, and orchestration based on Kubernetes all provide load-balancing and auto-scaling capabilities. Security features prevent tenants from compromising other containers or the " +
-								"underlying host. And because OpenShift can attach persistent storage directly to Linux® containers.",
-			"probe" : "How do you ensure high availability for your services?</br>" +
-								"How do you scale in case of peak usage?</br>" +
-								"How long does it take from the time a developer asks for a specific environment to the actual application deployment? And how can you manage upgrade processes for your production environments?</br>" +
-								"How much time does it take to clone one of your existing environments?</br>" +
-								"Do you have plans to invest in or look into microservices, DevOps or containers?</br>" +
-								"What programming languages or frameworks do you primarily use? Do you want to be able to choose different ones?</br>" +
-								"How much time do you have to spend patching security fixes, and is this a big issue for your organization?</br>" +
-								"What is your organization's cloud strategy, and how do you plan to expand your public or private cloud initiatives?	</br>" +
-								"Are your development teams able to deliver new applications on time?</br>" +
-								"Do developers go around IT and use public cloud resources?",
-			"info" : 	"<p><ul><li><a href='https://www.redhat.com/openshift' target='_blank'>Openshift Website</a></li>" +
-								"<li><a hreh='https://www.youtube.com/watch?v=D_Lj0rObunI' target='_blank'>Video - Introduction to OpenShift</a></li>" +
+								"underlying host. And because OpenShift can attach persistent storage directly to Linux® containers.</li></ul></p>",
+			"probe" : "<p><ol><li>How do you ensure high availability for your services?</li>" +
+								"<li>How do you scale in case of peak usage?</li>" +
+								"<li>How long does it take from the time a developer asks for a specific environment to the actual application deployment? And how can you manage upgrade processes for your production environments?</li>" +
+								"<li>How much time does it take to clone one of your existing environments?</li>" +
+								"<li>Do you have plans to invest in or look into microservices, DevOps or containers?</li>" +
+								"<li>What programming languages or frameworks do you primarily use? Do you want to be able to choose different ones?</li>" +
+								"<li>How much time do you have to spend patching security fixes, and is this a big issue for your organization?</li>" +
+								"<li>What is your organization's cloud strategy, and how do you plan to expand your public or private cloud initiatives?</li>" +
+								"<li>Are your development teams able to deliver new applications on time?</li>" +
+								"<li>Do developers go around IT and use public cloud resources?</li></ul></p>",
+			"info" : 	"<p><ul><li><a href='http://red.ht/2eCVQxq' target='_blank'>Openshift Website</a></li>" +
+								"<li><a href='http://bit.ly/2fdzROs' target='_blank'>Introduction to OpenShift</a></li>" +
 								"<li><a href='http://red.ht/2eZoGJ4' target='_blank'>Demo - How to use a push-button infrastructure in application development</a></li>" +
 								"<li><a href='http://red.ht/2eqJ2Zz' target='_blank'>Demo - How to build and use an automated framework for container-based CI/CD</a></li>" +
-								"<li><a href='https://www.youtube.com/user/rhopenshift' target='_blank'>YouTube - OpenShift</a></li></ul></p>"
+								"<li><a href='http://bit.ly/2e8tuHY' target='_blank'>YouTube - OpenShift</a></li></ul></p>"
 		}
 	],
 	"rhev" : [
