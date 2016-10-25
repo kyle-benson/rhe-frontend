@@ -178,11 +178,11 @@ var breakoutSchedules = {
 			"use" : "<p><ul><u>CI/CD</u><li>Enable developers to develop and test applications more quickly and within any environment.</li>" +
 			 				"<br/><u>DevOps</u><li>Break down barriers between Dev and Ops teams to improve the app development process.</li>" +
 							"<br/><u>Infrastructure Optimization</u><li>Decrease infrastructure costs while increasing its efficiency.</li>",
-			"probe" : "Are you looking to make a move to microservices & hybrid cloud architectures?</br></br>" +
-								"Are you wanting to containerize traditional applications?</br></br>" +
-								"What role do you see containers playing in your IT infrastructure strategy moving forward?</br></br>" +
-								"What benefits do you hope to achieve by adopting container technology?</br></br>" +
-								"What concerns do you have about container technology?",
+			"probe" : "<p><ol><li>Are you looking to make a move to microservices & hybrid cloud architectures?</li>" +
+								"<li>Are you wanting to containerize traditional applications?</li>" +
+								"<li>What role do you see containers playing in your IT infrastructure strategy moving forward?</li>" +
+								"<li>What benefits do you hope to achieve by adopting container technology?</li>" +
+								"<li>What concerns do you have about container technology?</li></ol></p>",
 			"info" : 	"<p><ul><li><a href='www.redhat.com/containers'target='blank'>Containers</a></li>" +
 								"<li><a href='http://bit.ly/2eongXM' target='_blank'>Why containers?</a></li>" +
 								"<li><a href='http://bit.ly/2ee0Ho2' target='_blank'>Why Red Hat containers?</a></li></ul></p>"
