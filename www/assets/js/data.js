@@ -175,9 +175,9 @@ var breakoutSchedules = {
 								"Containers include the application and all of its dependencies, but share the kernel with other containers. " +
 								"They run as an isolated process in user space on the host operating system. " +
 								"They’re also not tied to any specific infrastructure they can run on any computer, on any infrastructure, and in any cloud.",
-			"use" : "CI/CD: Enable developers to develop and test applications more quickly and within any environment.</br></br>" +
-			 				"DevOps: Break down barriers between Dev and Ops teams to improve the app development process.</br></br>" +
-							"Infrastructure Optimization: Decrease infrastructure costs while increasing its efficiency.",
+			"use" : "<p><ul><u>CI/CD</u><li>Enable developers to develop and test applications more quickly and within any environment.</li>" +
+			 				"<br/><u>DevOps</u><li>Break down barriers between Dev and Ops teams to improve the app development process.</li>" +
+							"<br/><u>Infrastructure Optimization</u><li>Decrease infrastructure costs while increasing its efficiency.</li>",
 			"probe" : "Are you looking to make a move to microservices & hybrid cloud architectures?</br></br>" +
 								"Are you wanting to containerize traditional applications?</br></br>" +
 								"What role do you see containers playing in your IT infrastructure strategy moving forward?</br></br>" +
