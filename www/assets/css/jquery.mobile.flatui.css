@@ -4155,7 +4155,7 @@ html .ui-overlay-c,html .ui-page-theme-c,html .ui-page-theme-c .ui-panel-wrapper
 html .ui-body-c,html .ui-page-theme-c .ui-body-inherit,html .ui-bar-c .ui-body-inherit,html .ui-body-c .ui-body-inherit,html body .ui-group-theme-c .ui-body-inherit,html .ui-panel-page-container-c{background:#000;border-color:#f2f2f2;color:#333}
 html .ui-body-c{border-width:1px;border-style:solid}
 html .ui-page-theme-c a,html .ui-bar-c a,html .ui-body-c a,html body .ui-group-theme-c a{
-	color:#eee;
+	/*color:#eee;*/
 	/*font-weight:bold*/
 }
 html .ui-page-theme-c a:visited,html .ui-bar-c a:visited,html .ui-body-c a:visited,html body .ui-group-theme-c a:visited{
