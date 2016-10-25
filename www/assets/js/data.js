@@ -243,25 +243,25 @@ var breakoutSchedules = {
 	],
 	"open" : [
 		{
-			"what" : 	"Red Hat OPEN is an enablement program created specifically for partners providing role-based training on how to sell and deliver Red Hat products and solutions. " +
+			"what" : 	"<p>Red Hat OPEN is an enablement program created specifically for partners providing role-based training on how to sell and deliver Red Hat products and solutions. " +
 								"The program features self-paced, online learning, combined with online assessments that lead to accreditation. Partners in partner sales, sales engineer, and delivery roles " +
-								"should start their learning journey with Red Hat OPEN, then continue with Red Hat Training and Certification.",
-			"use" : 	"New Courses Available in OPEN:</br>" +
-								"- How to Sell Red Hat Insights</br>" +
-								"- How to Sell Ansible Tower by Red Hat</br>" +
-								"- Automation with Ansible by Red Hat</br>" +
-								"- Red Hat Cloud Suite FASTRAX</br>" +
-								"- Red Hat CloudForms Implementation</br>" +
-								"- Red Hat OpenStack Implementation</br>" +
-								"- App Development with Red Hat Mobile Application Platform</br>" +
-								"- OSGI-Based Development with Red Hat JBoss Fuse</br>" +
-								"- Business Logic Development with Red Hat JBoss BPM Suite</br>" +
-								"- OpenShift 3 Implementation</br>" +
-								"- Application Development with Red Hat OpenShift</br>" +
-								"- RHEL 7 Troubleshooting</br>" +
-								"- RHEL for SAP HANA</br>" +
-								"- RHEL for IBM zSystems FASTRAX</br>" +
-								"- RHEL Atomic Host and Containers",
+								"should start their learning journey with Red Hat OPEN, then continue with Red Hat Training and Certification.</p>",
+			"use" : 	"<p><ul><u>New Courses Available in OPEN</u>" +
+								"<li>How to Sell Red Hat Insights</li>" +
+								"<li>How to Sell Ansible Tower by Red Hat</li>" +
+								"<li>Automation with Ansible by Red Hat</li>" +
+								"<li>Red Hat Cloud Suite FASTRAX</li>" +
+								"<li>Red Hat CloudForms Implementation</li>" +
+								"<li>Red Hat OpenStack Implementation</li>" +
+								"<li>App Development with Red Hat Mobile Application Platform</li>" +
+								"<li>OSGI-Based Development with Red Hat JBoss Fuse</li>" +
+								"<li>Business Logic Development with Red Hat JBoss BPM Suite</li>" +
+								"<li>OpenShift 3 Implementation</li>" +
+								"<li>Application Development with Red Hat OpenShift</li>" +
+								"<li>RHEL 7 Troubleshooting</li>" +
+								"<li>RHEL for SAP HANA</li>" +
+								"<li>RHEL for IBM zSystems FASTRAX</li>" +
+								"<li>RHEL Atomic Host and Containers</li></ul></p>",
 			"probe" : "N/A",
 			"info" : 	"<p><ul><li><a href='https://www.redhat.com/open' target='_blank'>OPEN</a></li>" +
 								"<li><a href='https://partnercenter.force.com/s/training_OPEN_brochure.pdf' target='_blank>OPEN Brochure</a></li>" +
