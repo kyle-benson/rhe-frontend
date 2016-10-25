@@ -145,53 +145,114 @@ var breakoutSchedules = {
 								"<li>Do you have unused software assigned to virtual machines that are not in use?</li>" +
 								"<li>Can you automate the provisioning of a multi-virtual machine service?</li>" +
 								"<li>Can you automate the compliance of virtual machines and powered-off templates, and apply new governance to changing standards?</li></ol></p>",
-			"info" : "<p><ul><li><a href='http://red.ht/2ekDDTr' taget='blank'>Red Hat CloudForms</a></li>" +
-			          "<li><a href='http://bit.ly/2eIsDz5' taget='blank'>Managing Your Private Cloud</a></li>" +
-								"<li><a href='http://red.ht/2eGtSQc' taget='blank'>Management Portfolio</a></li></ul></p>"
+			"info" : "<p><ul><li><a href='http://red.ht/2ekDDTr' target='blank'>Red Hat CloudForms</a></li>" +
+			          "<li><a href='http://bit.ly/2eIsDz5' target='blank'>Managing Your Private Cloud</a></li>" +
+								"<li><a href='http://red.ht/2eGtSQc' target='blank'>Management Portfolio</a></li></ul></p>"
 		}
 	],
 	"containers" : [
 		{
-			"what" : "Containers are a solution to the problem of how to get software to run reliably when moved from one computing environment to another" +
-							 "Put simply, a container consists of an entire runtime environment: an application, plus all its dependencies, libraries and other binaries," +
-							 "and configuration files needed to run it, bundled into one package. By containerizing the application platform and its dependencies, differences in OS distributions and underlying infrastructure are abstracted away." +
-							 "This sounds like virtualization. What's the difference?" +
-							 "With virtualization technology, the package that can be passed around is a virtual machine and it includes an entire operating system as well as the application. A physical server running three virtual machines  would have a hypervisor and three separate operating systems running on top of it." +
-							 "By contrast a server running three containerized applications as with Docker runs a single operating system, and each container shares the operating system kernel with the other containers." +
-							 "Shared parts of the operating system are read only, while each container has its own mount (i.e., a way to access the container) for writing. That means the containers are much more lightweight and use  far fewer resources than virtual machines.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
-		}
+			"what" : 	"Containers leverage a combination of lightweight application isolation and image-based deployment to keep applications and their runtime components together. " +
+								"Containers are essentially simpler, lighter, and denser virtual machines that require orchestration and management to be useful. " +
+								"They benefit both development and operations processes by allowing engineers and administrators to package, add to, and share self contained portable applications easily.</br></br>" +
+								"Containers contain a piece of software in a complete filesystem including everything it needs to run: code, runtime, system tools, system libraries – anything to be installed on the server.</br></br>" +
+								"Lastly, containers have similar resource isolation and allocation benefits as virtual machines but a different architectural approach allows them to be much more portable and efficient. " +
+								"Containers include the application and all of its dependencies, but share the kernel with other containers. " +
+								"They run as an isolated process in user space on the host operating system. " +
+								"They’re also not tied to any specific infrastructure they can run on any computer, on any infrastructure, and in any cloud.",
+			"use" : "CI/CD: Enable developers to develop and test applications more quickly and within any environment.</br></br>" +
+			 				"DevOps: Break down barriers between Dev and Ops teams to improve the app development process.</br></br>" +
+							"Infrastructure Optimization: Decrease infrastructure costs while increasing its efficiency.",
+			"probe" : "Are you looking to make a move to microservices & hybrid cloud architectures?</br></br>" +
+								"Are you wanting to containerize traditional applications?</br></br>" +
+								"What role do you see containers playing in your IT infrastructure strategy moving forward?</br></br>" +
+								"What benefits do you hope to achieve by adopting container technology?</br></br>" +
+								"What concerns do you have about container technology?",
+			"info" : 	"<p><ul><li><a href='www.redhat.com/containers'target='blank'>Containers</a></li>" +
+								"<li><a href='http://bit.ly/2eongXM'>Why containers?</a></li>" +
+								"<li><a href='http://bit.ly/2ee0Ho2'>Why Red Hat containers?</a></li></ul></p>"
+			}
 	],
 	"cdk" : [
 		{
-			"what" : "Red Hat Container Development Kit provides a pre-built Container Development Environment based on Red Hat Enterprise Linux to help you develop container-based (sometimes called Docker) applications quickly." +
-							 "The containers you build can be easily deployed on any Red Hat container host or platform, including: Red Hat Enterprise Linux, Red Hat Enterprise Linux Atomic Host, and our platform-as-a-service solution, OpenShift Enterprise 3.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+			"what" : 	"Red Hat Container Development Kit provides a pre-built Container Development Environment based on Red Hat Enterprise Linux to help you develop container-based (sometimes called Docker) applications quickly. " +
+								" The containers you build can be easily deployed on any Red Hat container host or platform, including: " +
+								"Red Hat Enterprise Linux, Red Hat Enterprise Linux Atomic Host, and our platform-as-a-service solution, OpenShift Enterprise 3.",
+			"use" : 	"The Container Development Kit provides a pre-built, single-machine OpenShift 3 environment, so you can try the latest version of the OpenShift platform-as-a-service that integrates " +
+								"support for docker-formatted containers and Kubernetes. When you bring up the rhel-ose Vagrantfile, OpenShift is started and provisioned. " +
+								"</br></br>To help you get started building applications, a number of OpenShift templates are included. You can access the OpenShift Web console from your browser or work from the CLI using the oc command to deploy container applications. " +
+								"OpenShift is pre-configured with a local Docker registry available and a local version of Kubernetes running, so you can test the full experience in a self-contained environment." +
+								"To save you from having to assemble a container development environment from scratch, Container Development Kit delivers the latest container tools in a Red Hat Enterprise Linux virtual " +
+								"machine that you can use on your Mac OS X, Microsoft Windows, or Red Hat Enterprise Linux system. In addition, you have your choice of virtualization platforms (VirtualBox, Hyper-V, and " +
+								"the Linux KVM/libvirt hypervisors are all supported). All of the VM configuration details on your system are handled for you by Vagrant, an open-source tool for creating and distributing portable and reproducible development environments.",
+			"probe" : "N/A",
+			"info" : 	"<p><ul><li><a href='http://developers.redhat.com/products/cdk/overview/'>Red Hat Container Development Kit</a></li>" +
+								"<li><a href='http://developers.redhat.com/blog/2016/06/01/red-hat-cdk-installation-in-just-minutes/'>Blog - Red Hat CDK installation in just minutes!</a></li>" +
+								"<li><a href='http://developers.redhat.com/promotions/docker-cheatsheet/'>Container Cheet Sheet</a></li></ul></p>"
 		}
 	],
 	"eap" : [
 		{
-			"what" : "JBoss EAP is a subscription-based/open-source Java EE-based application server runtime platform used for building, deploying, and hosting" +
-							 "highly-transactional Java applications and services.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+			"what" : 	"Red Hat JBoss Enterprise Application Platform (EAP) is the only choice for organizations seeking an open source, market leading Java EE application platform. " +
+								"Organizations standardize on JBoss EAP in order to gain efficiencies from their existing Java applications as well as establish a foundation for Java apps deployed " +
+								"in cloud environments, containers, microservices architectures, and using DevOps methodologies. Additionally many organizations make the change to JBoss EAP to " +
+								"realize signifigant decreases in total cost of ownership (TCO), while gaining the freedom to move between vendors by coding to standards." +
+								"</br></br>Key Advantages:</br>" +
+								"- Modular platform</br>" +
+								"- Lightweight requirements</br>" +
+								"- High Performance</br>" +
+								"- Extremely fast startup times</br>" +
+								"- Enterprise grade reliability, security and compliance</br>" +
+								"- Adherence to standards</br>" +
+								"- Avoidance of vendor lock in</br>",
+			"use" : 	"JBoss EAP is well-suited for organizations with demanding reliability, security, and compliance requirements that need developer-friendly technology, high productivity, and flexible deployment. " +
+								" Organizations that use JBoss EAP can fully support a wide range of Java applications, from HTML5 mobile applications to microservices apps to highly transactional applications that use the Java EE programming approach. " +
+								"JBoss EAP helps organizations deliver business value more quickly and with greater flexibility, resulting in lower costs, fast and easy scale-out, and reduced IT complexity.</br></br>" +
+								"Organizations looking to migrate to a new Java EE app server are key prospects for Red Hat JBoss EAP</br></br>" +
+								"Java developers looking to build microservices or simply more modular Java applications.</br></br>" +
+								"Customers spending too much time and resources on maintaining and updating traditional Java EE monolithic applications.</br></br>" +
+								"Customers looking to decrease the cost associated with hosting their applications.</br></br>" +
+								"Customers looking to avoid vendor lock-in.</br></br>",
+			"probe" : "What types of applications do you have, and how are your current applications used?</br></br>" +
+								"What application servers do you currently use?</br></br>" +
+								"What are your plans for modernizing your older incumbent (legacy) applications?</br></br>" +
+								"Are you thinking of deploying applications in the cloud to gain benefits of elastic scaling and easy provisioning?</br></br>" +
+								"How is your relationship with your current middleware provider(s), and how is your current existing environment working?</br></br>" +
+								"Have you recently experienced demands to develop, deploy, and update your systems and processes more quickly?</br></br>" +
+								"What are your plans to accommodate growing IT requests from your customers?</br></br>" +
+								"Do you plan on expanding your cloud and virtualization strategies in the future?",
+			"info" : 	"<p><ul><li><a href='https://www.redhat.com/en/technologies/jboss-middleware/application-platform'>Red Hat JBoss Enterprise Application Platform</a></li>" +
+								"<li><a href='https://www.redhat.com/en/resources/red-hat-jboss-enterprise-application-platform-technology-overview'>Technology Brief</a></li>" +
+								"<li><a href='https://www.redhat.com/en/insights/devops'>Innovate faster with DevOps</a></li></ul></p>"
 		}
 	],
 	"open" : [
 		{
-			"what" : "Red Hat OPEN enables partners around the world to work smarter, faster, and more efficiently. Available anytime, anywhere through the Red Hat" +
-			         "Partner Portal, Red Hat OPEN provides access to the tools, training, support, and resources needed to advance your business, including:" +
-							 "• Role-specific, self-paced training courses designed for sales, sales engineer, and delivery specialists that can lead to earning a Red Hat partner accreditation." +
-							 "• The Red Hat Partner Demo System with pre-configured demos across the Red Hat product lines." +
-							 "• The Red Hat technical library, an online resource offering tagged, searchable, and dynamic content, available whenever you need it.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+			"what" : 	"Red Hat OPEN is an enablement program created specifically for partners providing role-based training on how to sell and deliver Red Hat products and solutions. " +
+								"The program features self-paced, online learning, combined with online assessments that lead to accreditation. Partners in partner sales, sales engineer, and delivery roles " +
+								"should start their learning journey with Red Hat OPEN, then continue with Red Hat Training and Certification.",
+			"use" : 	"New Courses Available in OPEN:</br>" +
+								"- How to Sell Red Hat Insights</br>" +
+								"- How to Sell Ansible Tower by Red Hat</br>" +
+								"- Automation with Ansible by Red Hat</br>" +
+								"- Red Hat Cloud Suite FASTRAX</br>" +
+								"- Red Hat CloudForms Implementation</br>" +
+								"- Red Hat OpenStack Implementation</br>" +
+								"- App Development with Red Hat Mobile Application Platform</br>" +
+								"- OSGI-Based Development with Red Hat JBoss Fuse</br>" +
+								"- Business Logic Development with Red Hat JBoss BPM Suite</br>" +
+								"- OpenShift 3 Implementation</br>" +
+								"- Application Development with Red Hat OpenShift</br>" +
+								"- RHEL 7 Troubleshooting</br>" +
+								"- RHEL for SAP HANA</br>" +
+								"- RHEL for IBM zSystems FASTRAX</br>" +
+								"- RHEL Atomic Host and Containers",
+			"probe" : "N/A",
+			"info" : 	"<p><ul><li><a href='https://www.redhat.com/open'>OPEN</a></li>" +
+								"<li><a href='https://partnercenter.force.com/s/training_OPEN_brochure.pdf'>OPEN Brochure</a></li>" +
+								"<li><a href='https://partnercenter.force.com/s/Howtoguide-accessandregisterforRedHatOPENpartnertraining.pdf?v=2'>How to Access OPEN</a></li>" +
+								"<li><a href='http://bit.ly/1vWKVB2'>OPEN Course Catalog</a></li>" +
+								"<li><a href='https://partner.redhat.com'>Red Hat Connect for Business Partners</a></li></ul></p>"
 		}
 	],
 	"ocp" : [
