@@ -95,27 +95,27 @@ var breakoutSessions = [
 var breakoutSchedules = {
 	"ansible" : [
 		{
-			"what" : 	"Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs.</br></br>" +
-								"Ansible was created for multi-tier deployments, and models your IT infrastructure by describing how all of your systems inter-relate, rather than just managing one system at a time. It uses no agents and no " +
+			"what" : 	"<p>Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs.</p>" +
+								"<p>Ansible was created for multi-tier deployments, and models your IT infrastructure by describing how all of your systems inter-relate, rather than just managing one system at a time. It uses no agents and no " +
 								"additional custom security infrastructure, so it's easy to deploy--and most importantly, uses a very simple language (YAML, in the form of Ansible Playbooks). " +
-								"YAML allows you to describe your automation jobs in a way that approaches plain English.</br></br>" +
-								"Key Advantages:</br>" +
-								"- Simple Automation Language</br>" +
-								"- Agentless Approach using SSH & WinRM</br>" +
-								"- Increase productivity and business growth through automation</br></br>" +
-								"Ansible Tower by Red Hat is a customer-premises platform web app that is designed to make Ansible ready for the enterprise by providing businesses with control, knowledge, and delegation capabilities " +
+								"YAML allows you to describe your automation jobs in a way that approaches plain English.</p>" +
+								"<p><ul><u>Key Advantages</u>:" +
+								"<li>Simple Automation Language</li>" +
+								"<li>Agentless Approach using SSH & WinRM</li>" +
+								"<li>Increase productivity and business growth through automation</li></ul></p>" +
+								"<p>Ansible Tower by Red Hat is a customer-premises platform web app that is designed to make Ansible ready for the enterprise by providing businesses with control, knowledge, and delegation capabilities " +
 								"for enterprise-wide automation. With Ansible Tower, a RESTful application programming interface (REST API) and user interface (UI) ensures users are able to rapidly and securely run Ansible across entire IT environments. " +
-								"Ansible Tower provides organizations the ability to provide authentication, role based authorization, and logging of tasks through the UI this is a powerful tool for many security minded organizations.",
-			"use" : 	"IT complexity is a huge problem for businesses. The more complex IT is, the more costly it is to deploy and maintain. Furthermore, complex environments take much longer to deploy and typically suffer longer " +
+								"Ansible Tower provides organizations the ability to provide authentication, role based authorization, and logging of tasks through the UI this is a powerful tool for many security minded organizations.</p>",
+			"use" : 	"<p>IT complexity is a huge problem for businesses. The more complex IT is, the more costly it is to deploy and maintain. Furthermore, complex environments take much longer to deploy and typically suffer longer " +
 								"and more severe outages. As system complexity increases, team productivity decreases. Ansible and Ansible Tower by Red Hat help organizations of any size implement DevOps quickly and efficiently. " +
-								"Regardless of what is being deployed, and where it's being deployed, Ansible can manage the complete application life-cycle management process.",
-			"probe" : "Are you using Ansible? If yes, do you want to learn more about Ansible Tower?</br></br>" +
-								"If you aren't currently using Ansible, what is your IT automation strategy?</br></br>" +
-								"How do you orchestrate multi-tier application deployments? How do you handle configuration management? How do you gather real-time, system-specific information across your environment?</br></br>" +
-								"How often do you deploy applications, and/or provision infrastructure, and how long does it typically take?</br></br>" +
-								"Do you ever wish there was a simpler way for everyone in the company to benefit from automation tools, not just those who know complex programming languages?</br></br>" +
-								"Are your employees freqently bogged down by routine but necessary IT tasks?</br></br>" +
-								"Is there a plan within the organization for IT automation?</br></br>",
+								"Regardless of what is being deployed, and where it's being deployed, Ansible can manage the complete application life-cycle management process.</p>",
+			"probe" : "<p><ol><li>Are you using Ansible? If yes, do you want to learn more about Ansible Tower?</li>" +
+								"<li>If you aren't currently using Ansible, what is your IT automation strategy?</li>" +
+								"<li>How do you orchestrate multi-tier application deployments? How do you handle configuration management? How do you gather real-time, system-specific information across your environment?</li>" +
+								"<li>How often do you deploy applications, and/or provision infrastructure, and how long does it typically take?</li>" +
+								"<li>Do you ever wish there was a simpler way for everyone in the company to benefit from automation tools, not just those who know complex programming languages?</li>" +
+								"<li>Are your employees freqently bogged down by routine but necessary IT tasks?</li>" +
+								"<li>Is there a plan within the organization for IT automation?</li>",
 			"info" : 	"<p><ul><li><a href='https://www.ansible.com' target='_blank'>Ansible by Red Hat</a></li>" +
 								"<li><a href='https://www.ansible.com/whitepapers' target='_blank'>Ansible Whitepapers</a></li>" +
 								"<li><a href='https://www.ansible.com/tower' target='_blank'>Ansible Tower by Red Hat</a></li>" +
