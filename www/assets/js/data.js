@@ -24,7 +24,7 @@ var csa_speakers = [
 	{ "speaker" : "Maã Shepsu Menåb Nuíríãnkh", "email" : "mnuirian@redhat.com" },
 	{ "speaker" : "Manny Evangelista", "email" : "mevangel@redhat.com" },
 	{ "speaker" : "Michael Surbey", "email" : "msurbey@redhat.com" }
-]
+];
 
 var dailyAgenda = {
 	monday 		: [
