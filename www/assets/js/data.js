@@ -366,13 +366,27 @@ var breakoutSchedules = {
 	],
 	"gluster" : [
 		{
-			"what" : "Red Hat Gluster Storage is an open, scalable, reliable, and cost-effective data-management platform that streamlines file and object access across physical, virtual," +
+			"what" : "<p>Red Hat Gluster Storage is an open, scalable, reliable, and cost-effective data-management platform that streamlines file and object access across physical, virtual," +
 							 "and cloud environments. It is a scale-out file store with a straightfoward architecture suitable for public, private, and hybrid cloud environments. Red Hat Gluster Storage" +
 							 "offers mature network file system (NFS), server message block (SMB), and Hadoop distributed file system (HDFS) interfaces and is well suited for analytics, rich media, file" +
-							 "sync and share, and virtualization workloads.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+							 "sync and share, and virtualization workloads.</p>" +
+							 "<p><ul><u>Key Advantages</u><li>Open source</li>" +
+							 "<li>Scalable, with no Metadata Server</li>" +
+							 "<li>Multi-protocol access to the same data</li>" +
+							 "<li>Modular</li>" +
+							 "<li>Always On, Highly Available</li></ul></p>",
+			"use" : "<p><ul><li>Cost-effective, scalable deployments for analytics:  machine log data analytics, GeoSpatial, big data analytics</li>" +
+			        "<li>Enterprise File Sharing:  Media streaming, Active archives</li>" +
+							"<li>Support the storage demands of virtual machine sprawl with commodity x86 servers instead of more complex options.</li>" +
+							"<li>Rich Media & Archival</li>" +
+							"<li>File Sync & Share</li></ul></p>",
+			"probe" : "<p><ol><li>What storage technology are you currently using for X project?</li>" +
+			          "<li>Does the technology scale flexibly and cost effectively with commodity hardware?</li>" +
+								"<li>What challenges are you facing with your current storage infrastructure?</li></ol></p>",
+			"info" : "<p><ul><li><a href='http://red.ht/2f5laxs' target='blank'>Red Hat Storage</a></li>" +
+							 "<li><a href='http://red.ht/2eDY7pg' target='blank'>Test-Drive Storage</a></li>" +
+							 "<li><a href='http://red.ht/2eDY2lt' target='blank'>Gartner File Systems And Object Storage</a></li>" +
+               "<li><a href='http://bit.ly/2e8mc6X' target='blank'>Red Hat Storage Story</a></li></ul></p>"
 		}
 	],
 	"ceph" : [
