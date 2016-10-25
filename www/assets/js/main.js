@@ -85,7 +85,7 @@ function scheduleListRenderFunction(sessionList){
 	_html += "<h1>What Is It?</h1><div class='wrappable'>" + _day + "</div>";
 	_html += "<h1>Common Use Case</h1><div class='wrappable'>" + _time + "</div>";
 	_html += "<h1>Probing Question(s)</h1><div class='wrappable'>" + _room + "</div>";
-	_html += "<h1>More Information</h1><div class='wrappable'>" + _spkrs + "</div>";
+	_html += "<h1>More Information</h1><div class='wrappable moreInfo'>" + _spkrs + "</div>";
 
 	return _html;
 }
