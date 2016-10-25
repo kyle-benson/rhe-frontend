@@ -145,7 +145,9 @@ var breakoutSchedules = {
 								"<li>Do you have unused software assigned to virtual machines that are not in use?</li>" +
 								"<li>Can you automate the provisioning of a multi-virtual machine service?</li>" +
 								"<li>Can you automate the compliance of virtual machines and powered-off templates, and apply new governance to changing standards?</li></ol></p>",
-			"info" : ""
+			"info" : "<p><ul><li><a href='http://red.ht/2ekDDTr' taget='blank'>Red Hat CloudForms</a></li>" +
+			          "<li><a href='http://bit.ly/2eIsDz5' taget='blank'>Managing Your Private Cloud</a></li>" +
+								"<li><a href='http://red.ht/2eGtSQc' taget='blank'>Management Portfolio</a></li></ul></p>"
 		}
 	],
 	"containers" : [
