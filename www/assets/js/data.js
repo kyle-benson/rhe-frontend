@@ -88,7 +88,7 @@ var breakoutSessions = [
 	{ id : "gluster", "session" : "Storage - Gluster", "description" : ""},
 	{ id : "ceph", "session" : "Storage - Ceph", "description" : ""},
 	{ id : "consulting", "session" : "Red Hat Consulting", "description": ""},
-	{ id : "government", "session" : "Red Hat Solutions for Government", "description": ""}
+	{ id : "government", "session" : "Red Hat Solutions for Government", "description": ""},
 	{ id : "sat", "session" : "Red Hat Satellite", "description" : ""}
 ];
 
@@ -409,5 +409,4 @@ var breakoutSchedules = {
                "<li><a href='http://red.ht/2eGtSQc' target='blank'>Management Portfolio</a></li></ul></p>"
 		}
 	]
-
 };
