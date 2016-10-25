@@ -110,22 +110,41 @@ var breakoutSchedules = {
 	],
 	"cloud_access" : [
 		{
-			"what" : "Red Hat Cloud Access makes it easy to migrate your current subscriptions for use on qualified Red Hat Certified Cloud and Service Providers. All benefits of your subscription transfer to the public cloud. That means you keep your direct" +
-							 "relationship with Red Hat, including sales and our award-winning support.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+			"what" : "<p>With Red Hat Cloud Access, you can easily move subscriptions from your datacenter to a Red Hat Certified Public Cloud and Service Provider. " +
+			         "You’ll keep all of the benefits of your subscription and your direct relationship with Red Hat, including access to product experts and our" +
+							 "award-winning Red Hat Global Support Services.</p>",
+			"use" : "<p><ul><li>A customer wishes to deploy to public cloud infrastructure, but wants to maintain a trusted support relationship with Red Hat.</li>" +
+							"<li>Customer wants to have a single management/update architecture (via Red Hat Satellite) across on-premise and cloud based Red Hat Enterprise Linux.</li></ul></p>",
+			"probe" : "<p>N/A</p>",
+			"info" : "<p><ul><li><a href='http://red.ht/2f4W81k' target='_blank'>Red Hat Certified Cloud and Service Providers</a></li></ul></p>"
 		}
 	],
 	"cloudforms" : [
 		{
-			"what" : "CloudForms gives you choice and flexibility while providing a unified and consistent set of management capabilities across:" +
-							 "• Virtualization platforms like Red Hat Virtualization, VMware vRealize, and Microsoft Hyper-V." +
-							 "• Private cloud platforms based on OpenStack®." +
-							 "• Public cloud platforms like Amazon Web Services and Microsoft Azure." +
-							 "CloudForms can see and manage both the guest and host systems, allowing management of workloads and infrastructure within the same system.",
-			"use" : "",
-			"probe" : "",
+			"what" : "<p>Red Hat CloudForms offers unified management for hybrid environments, providing a consistent experience and functionality across virtualization, " +
+			         "private and public cloud platforms, and container-based infrastructures. Red Hat CloudForms helps enterprises accelerate service delivery through " +
+							 "self-service, including complete operational and life-cycle management of the deployed services. It provides greater operational visibility through " +
+							 "continuous discovery, monitoring, and deep inspection of managed resources. And it ensures compliance and governance using automated policy enforcement " +
+							 "and remediation. All the while, CloudForms is reducing operational costs and reducing or eliminating the manual processes that burden IT staff.</p>",
+			"use" : "<p><ul><u>Private Cloud Management</u><li>Extend existing virtualization capabilities</li>" +
+			        "<li>Centralized management of multiple platforms (eg, VMware and RHV)</li>" +
+							"<li>Policy enforcement</li>" +
+							"<br/><u>Hybrid Cloud Management</u><li>Managing public and private cloud infrastructure</li>" +
+							"<br/><u>Public Cloud Management</u><li>Provision to multiple public clouds</li>" +
+							"<li>Enforce agency/corporate policies</li>" +
+							"<li>Cloud brokering</li></ul></p>",
+			"probe" : "<p><ol><li>Do you have any cloud initiatives currently underway?</li>" +
+			          "<li>Do you have multiple cloud/virtualization providers?</li>" +
+								"<li>Is the busienss side of your organization asking you to deploy applications faster or be more agile?</li>" +
+								"<li>Are you interested in private cloud, but have not implemented one yet?</li>" +
+								"<li>Are your IT operations teams being saddled with many manual tasks related to providing infrastructure to your internal customers?</li>" +
+								"<li>Is there a plan within the organization for cloud management?</li>" +
+								"<li>Do you have a budget for automation solutions?</li>" +
+								"<li>Are you looking for a solution to deliver IT resources faster to your development team?</li>" +
+								"<li>Do you have problems managing the virtual machine life cycle?</li>" +
+								"<li>Do you have unused software assigned to virtual machines that are not in use?</li>" +
+								"<li>Can you automate the provisioning of a multi-virtual machine service?</li>" +
+								"<li>Can you automate the compliance of virtual machines and powered-off templates, and apply new governance to changing standards?</li></ol></p>",
 			"info" : ""
 		}
 	],
