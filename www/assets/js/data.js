@@ -445,5 +445,4 @@ var breakoutSchedules = {
                "<li><a href='http://red.ht/2eGtSQc' target='blank'>Management Portfolio</a></li></ul></p>"
 		}
 	]
-
 };
