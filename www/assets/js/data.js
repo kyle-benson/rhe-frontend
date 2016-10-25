@@ -344,7 +344,7 @@ var breakoutSchedules = {
 								"This is one of the reasons why our software meets some of the highest security certifications available under internationally recognized standards like Common Criteria. Security and open source innovation go hand in hand.</p>" +
 								"<p><ul><u>The mission of Red Hat Product Security is to</u>" +
 								"<li>Help protect customers from meaningful security concerns when using Red Hat products and services.</li>" +
-								"- Investigate, track, and explain security issues that may affect users of Red Hat supported products and services.</li>" +
+								"<li>Investigate, track, and explain security issues that may affect users of Red Hat supported products and services.</li>" +
 								"<li>Be the point of contact for customers, users, and researchers who find security issues in our products and services.</li>" +
 								"<li>Publish the procedures for dealing with security issues in our products and services.</li>" +
 								"<li>Provide timely security fixes, advisories, and updates that our customers can easily find, obtain, and understand.</li>" +
