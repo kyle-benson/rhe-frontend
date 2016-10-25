@@ -88,27 +88,39 @@ var breakoutSessions = [
 	{ id : "gluster", "session" : "Storage - Gluster", "description" : ""},
 	{ id : "ceph", "session" : "Storage - Ceph", "description" : ""},
 	{ id : "consulting", "session" : "Red Hat Consulting", "description": ""},
-	{ id : "government", "session" : "Red Hat Solutions for Government", "description": ""}
+	{ id : "government", "session" : "Red Hat Solutions for Government", "description": ""},
 	{ id : "sat", "session" : "Red Hat Satellite", "description" : ""}
 ];
 
 var breakoutSchedules = {
 	"ansible" : [
 		{
-			"what" : "IT complexity is a huge problem for businesses. The more complex IT is, the more costly it is to deploy and maintain. Furthermore, complex environments take much longer to deploy and typically suffer longer and more severe outages." +
-							 "As system complexity increases, team productivity decreases." +
-		           "IaaS+ is a great starting point for reducing the complexity of existing IT environments, modernizing IT environments, and implementing initial DevOps practices. By automating repetitive tasks, teams are able to focus on productivity and" +
-							 "innovation rather than mundane repetitive tasks. Ansible and Ansible Tower by Red Hat help organizations automate cloud provisioning, configuration management, application deployment, intra-service orchestration," +
-							 "and many other IT needs." +
-							 "<u>Benefits of Ansible and DevOps</u>:" +
-							 "• Save time and increase productivity to overcome complexity so there's more resources for innovation." +
-							 "• Make fewer mistakes and errors so you can increase accountability and compliance." +
-							 "• Improve collaboration and job satisfaction to promote a culture of success." +
-							 "• Agentless (uses existing SSH and WinRM transports), so there's nothing to install on remote systems and no separate agents to manage." +
-							 "• Created for multi-tier deployments, and models your IT infrastructure by describing how all of your systems inter-relate, rather than just managing one system at a time.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+			"what" : 	"Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs.</br></br>" +
+								"Ansible was created for multi-tier deployments, and models your IT infrastructure by describing how all of your systems inter-relate, rather than just managing one system at a time. It uses no agents and no " +
+								"additional custom security infrastructure, so it's easy to deploy--and most importantly, uses a very simple language (YAML, in the form of Ansible Playbooks). " +
+								"YAML allows you to describe your automation jobs in a way that approaches plain English.</br></br>" +
+								"Key Advantages:</br>" +
+								"- Simple Automation Language</br>" +
+								"- Agentless Approach using SSH & WinRM</br>" +
+								"- Increase productivity and business growth through automation</br></br>" +
+								"Ansible Tower by Red Hat is a customer-premises platform web app that is designed to make Ansible ready for the enterprise by providing businesses with control, knowledge, and delegation capabilities " +
+								"for enterprise-wide automation. With Ansible Tower, a RESTful application programming interface (REST API) and user interface (UI) ensures users are able to rapidly and securely run Ansible across entire IT environments. " +
+								"Ansible Tower provides organizations the ability to provide authentication, role based authorization, and logging of tasks through the UI this is a powerful tool for many security minded organizations.",
+			"use" : 	"IT complexity is a huge problem for businesses. The more complex IT is, the more costly it is to deploy and maintain. Furthermore, complex environments take much longer to deploy and typically suffer longer " +
+								"and more severe outages. As system complexity increases, team productivity decreases. Ansible and Ansible Tower by Red Hat help organizations of any size implement DevOps quickly and efficiently. " +
+								"Regardless of what is being deployed, and where it's being deployed, Ansible can manage the complete application life-cycle management process.",
+			"probe" : "Are you using Ansible? If yes, do you want to learn more about Ansible Tower?</br></br>" +
+								"If you aren't currently using Ansible, what is your IT automation strategy?</br></br>" +
+								"How do you orchestrate multi-tier application deployments? How do you handle configuration management? How do you gather real-time, system-specific information across your environment?</br></br>" +
+								"How often do you deploy applications, and/or provision infrastructure, and how long does it typically take?</br></br>" +
+								"Do you ever wish there was a simpler way for everyone in the company to benefit from automation tools, not just those who know complex programming languages?</br></br>" +
+								"Are your employees freqently bogged down by routine but necessary IT tasks?</br></br>" +
+								"Is there a plan within the organization for IT automation?</br></br>",
+			"info" : 	"<p><ul><li><a href='https://www.ansible.com' target='_blank'>Ansible by Red Hat</a></li>" +
+								"<li><a href='https://www.ansible.com/whitepapers' target='_blank'>Ansible Whitepapers</a></li>" +
+								"<li><a href='https://www.ansible.com/tower' target='_blank'>Ansible Tower by Red Hat</a></li>" +
+								"<li><a href='https://www.ansible.com/quick-start-video' target='_blank'>Video - Getting Started with Ansible</a></li>" +
+								"<li><a href='https://www.redhat.com/en/technologies/management' target='_blank'>Red Hat Management Products</a></li></ul></p>"
 		}
 	],
 	"cloud_access" : [
@@ -260,19 +272,43 @@ var breakoutSchedules = {
 	],
 	"ocp" : [
 		{
-			"what" : "PaaS is a better choice than IaaS+ for fully maximizing the benefits of DevOps. With IaaS+, it’s still up to individual development, test, and production teams to configure each environment. Even with IaaS+ these teams suffer the same fate of inconsistent environments." +
-			         "PaaS helps IT deploy uniform development, test, and production environments. This uniformity reduces the risks and impact of configuration differences while maximizing the benefits of DevOps." +
-							 "Although IaaS+ is suitable for building modern applications, a container based approach implemented by enterprise PaaS offerings, like OpenShift, makes development and deployment of applications using a distributed model or framework of Microservices (a model on the rise which breaks large applications into smaller services) much easier for enterprise IT." +
-							 "<u>Benefits of OpenShift and DevOps:</u>" +
-							 "• Process optimization from Development to Production–instead of waiting for weeks, months, or years to move from idea to production, it is only minutes, hours, or days." +
-							 "• Businesses deliver faster, exceeding customer expectations, thereby increasing the customer retention." +
-							 "• Code deployment is faster, errors are vastly reduced and quickly detected resulting in dramatic Mean Time To Recover (MTTR)." +
-							 "• Operations, in addition to development, operates at the speed of business." +
-							 "• PaaS makes DevOps possible without hiring specialized skill sets. PaaS brings closer collaboration between developers and operations with less effort." +
-							 "• Combining PaaS (tools) and DevOps (culture) reduces operational overhead, freeing up resources for new products.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+			"what" : 	"Red Hat OpenShift Container Platform helps organizations develop, deploy, and manage existing and container-based applications seamlessly across physical, virtual, and public cloud infrastructures. " +
+								"Built on proven open source technologies, Red Hat OpenShift Container Platform helps application development and IT operations teams modernize applications, deliver new services, and accelerate development processes.</br></br>" +
+								"Available On-Premise:</br>" +
+								"- OpenShift Container Local</br>" +
+								"- OpenShift Container Lab</br>" +
+								"- OpenShift Container Platform</br></br>" +
+								"Available Cloud-based:</br>" +
+								"- OpenShift Online</br>" +
+								"- OpenShift Dedicated</br></br>" +
+								"Key Advantages:</br>" +
+								"- Expedite innovation to market</br>" +
+								"- Accelerate application development</br>" +
+								"- Increase operational efficiency</br>" +
+								"- Enable DevOps",
+			"use" : 	"Development Teams:</br>" +
+								"Red Hat OpenShift Container Platform provides developers with an optimal platform for provisioning, building, and deploying applications and their components in a self-service fashion. " +
+								"With automated workflows like our source-to-image (S2I) process, it’s easy to get source code from version control systems into ready-to-run, docker-formatted container images." +
+								"OpenShift Container Platform integrates with continuous integration and delivery tools, making it an ideal solution for any development team.</br></br>" +
+								"Operations Teams:</br>" +
+								"OpenShift Container Platform gives IT operations a secure, enterprise-grade environment that provides policy-based control and automation for container-based applications in production. " +
+								"Cluster services, scheduling, and orchestration based on Kubernetes all provide load-balancing and auto-scaling capabilities. Security features prevent tenants from compromising other containers or the " +
+								"underlying host. And because OpenShift can attach persistent storage directly to Linux® containers.",
+			"probe" : "How do you ensure high availability for your services?</br>" +
+								"How do you scale in case of peak usage?</br>" +
+								"How long does it take from the time a developer asks for a specific environment to the actual application deployment? And how can you manage upgrade processes for your production environments?</br>" +
+								"How much time does it take to clone one of your existing environments?</br>" +
+								"Do you have plans to invest in or look into microservices, DevOps or containers?</br>" +
+								"What programming languages or frameworks do you primarily use? Do you want to be able to choose different ones?</br>" +
+								"How much time do you have to spend patching security fixes, and is this a big issue for your organization?</br>" +
+								"What is your organization's cloud strategy, and how do you plan to expand your public or private cloud initiatives?	</br>" +
+								"Are your development teams able to deliver new applications on time?</br>" +
+								"Do developers go around IT and use public cloud resources?",
+			"info" : 	"<p><ul><li><a href='https://www.redhat.com/openshift' target='_blank'>Openshift Website</a></li>" +
+								"<li><a hreh='https://www.youtube.com/watch?v=D_Lj0rObunI' target='_blank'>Video - Introduction to OpenShift</a></li>" +
+								"<li><a href='http://red.ht/2eZoGJ4' target='_blank'>Demo - How to use a push-button infrastructure in application development</a></li>" +
+								"<li><a href='http://red.ht/2eqJ2Zz' target='_blank'>Demo - How to build and use an automated framework for container-based CI/CD</a></li>" +
+								"<li><a href='https://www.youtube.com/user/rhopenshift' target='_blank'>YouTube - OpenShift</a></li></ul></p>"
 		}
 	],
 	"rhev" : [
