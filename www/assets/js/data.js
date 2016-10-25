@@ -274,12 +274,29 @@ var breakoutSchedules = {
 	],
 	"rhev" : [
 		{
-			"what" : "Red Hat Enterprise Virtualization offers enterprises the ideal platform on which to base large-scale virtualization initiatives and internal and private cloud" +
+			"what" : "<p>Red Hat Enterprise Virtualization offers enterprises the ideal platform on which to base large-scale virtualization initiatives and internal and private cloud" +
 							 "deployments. The complete virtualization management system lets customers centrally and effectively manage their entire virtual environments, which can" +
-							 "include virtual datacenters, clusters, hosts, guest virtual servers and desktops, networking, and storage.",
-			"use" : "",
-			"probe" : "",
-			"info" : ""
+							 "include virtual datacenters, clusters, hosts, guest virtual servers and desktops, networking, and storage.</p>" +
+							 "<p><ul><u>Key Advantages</u><li>Centralized management of the KVM hypervisor</li>" +
+							 "<li>Unmatched performance</li>" +
+							 "<li>Self-Service User Portal</li>" +
+							 "<li>Automated workload management</li>" +
+							 "<li>Security with sVirt and SELinux</li>" +
+							 "<li>Open source innovations</li>" +
+							 "<li>Affordable + higher ROI</li></ul></p>",
+			"use" : "<p><ul><u>Less-critical Application Tiers</u><li>Virtualize less-critical application tiers where performance and cost are the primary concerns</li>" +
+			        "<br><u>Dev/Test Environments</u><li>Quickly provision VMs in QA and development environments</li>" +
+							"<br><u>Cloud Transition</u><li>Co-engineered with Red Hat OpenStack for a smooth transition into Private and Public clouds</li></ul></p>",
+			"probe" : "<p><ol><li>What virtualization platform are you using today? Does it provide the TCO and flexibility you require?</li>" +
+			          "<li>How do you ensure your virtualization technology is secure?</li>" +
+								"<li>How do you prevent lock-in and ensure that your organization is ready to seamlessly adopt next generation IT capabilities?</li>" +
+								"<li>How do you virtualize your Tier-1 resource intensive workloads?</li>" +
+								"<li>Do you have servers running RHEL, and are you interested in virtualization?</li>" +
+								"<li>Are you getting the performance that you need for your virtualized infrastructure?</li>" +
+								"<li>How do you manage your virtual machine environment? Do you think this is a future-proof strategy?</li>" +
+								"<li>Does the organization lack comprehensive management tools that provide visibility across your virtual infrastructure?</li></ol></p>",
+			"info" : "<p><ul><li><a href='http://red.ht/2f5cMy0' target='blank'>Red Hat Virtualization</a></li>" +
+               "<li><a href='http://red.ht/2fd7qQm' target='blank'>Gartner 2016 Server Virtualization Report</a></li></ul></p>"
 		}
 	],
 	"security" : [
