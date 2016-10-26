@@ -76,20 +76,20 @@ var dailyAgenda = {
 
 var breakoutSessions = [
 	{ id : "ansible", "session" : "Ansible by Red Hat", "description" : ""},
-	{ id : "cloud_access", "session" : "Red Hat Cloud Access", "description" : ""},
-	{ id : "cloudforms", "session" : "Red Hat CloudForms", "description" : ""},
 	{ id : "containers", "session" : "Containers", "description" : ""},
-	{ id : "cdk", "session" : "OpenShift Local Container Development Kit (CDK)", "description" : ""},
-	{ id : "eap", "session" : "JBoss Enterprise Application Platform (EAP)", "description" : ""},
 	{ id : "open", "session" : "Online Partner Enablement Network (OPEN)", "description" : ""},
 	{ id : "ocp", "session" : "OpenShift Container Platform", "description" : ""},
-	{ id : "rhev", "session" : "Red Hat Virtualization", "description" : ""},
-	{ id : "security", "session" : "Security", "description" : ""},
-	{ id : "gluster", "session" : "Storage - Gluster", "description" : ""},
-	{ id : "ceph", "session" : "Storage - Ceph", "description" : ""},
+	{ id : "ceph", "session" : "Red Hat Ceph Storage", "description" : ""},
+	{ id : "cloud_access", "session" : "Red Hat Cloud Access", "description" : ""},
+	{ id : "cloudforms", "session" : "Red Hat CloudForms", "description" : ""},
 	{ id : "consulting", "session" : "Red Hat Consulting", "description": ""},
+	{ id : "cdk", "session" : "Red Hat Container Development Kit (CDK)", "description" : ""},
+	{ id : "gluster", "session" : "Red Hat Gluster Storage", "description" : ""},
+	{ id : "eap", "session" : "Red Hat JBoss Enterprise Application Platform (EAP)", "description" : ""},
+	{ id : "security", "session" : "Red Hat Product Security", "description" : ""},
+	{ id : "sat", "session" : "Red Hat Satellite", "description" : ""},
 	{ id : "government", "session" : "Red Hat Solutions for Government", "description": ""},
-	{ id : "sat", "session" : "Red Hat Satellite", "description" : ""}
+	{ id : "rhev", "session" : "Red Hat Virtualization", "description" : ""}
 ];
 
 var breakoutSchedules = {
