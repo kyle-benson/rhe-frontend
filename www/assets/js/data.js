@@ -55,11 +55,11 @@ var dailyAgenda = {
 	wednesday  :  [
 		{ "time" : "10:30 - 11:30", "topic": "Advantages in Moving to JBoss EAP", "location": "", "speakers": "Jim Tyrrell"},
 		{ "time" : "11:30 - 12:00", "topic": "OpenShift - Containers Made Easy to Use", "location": "", "speakers": "Michael Surbey"},
-		{ "time" : "12:00 - 13:15", "topic": "Lunch & OpenShift Lab", "location": "", "speakers": "Michael Surbey"},
+		{ "time" : "12:00 - 13:15", "topic": "LUNCH + LAB", "location": "", "speakers": ""},
 		{ "time" : "13:15 - 14:30", "topic": "JEE Apps and OpenShift Container Platform", "location": "", "speakers": "Michelle Davis"},
-		{ "time" : "14:30 - 14:45", "topic": "Take 15 (Break)", "location": "", "speakers": ""},
-		{ "time" : "14:45 - 16:00", "topic": "Push Button CI/CD Workflow Using OpenShift", "location": "", "speakers": "Tariq Islam"},
-		{ "time" : "16:00 - 17:00", "topic": "OpenShift Local Container Development Kit (CDK)", "location": "", "speakers": "Brandon Cox"},
+		{ "time" : "14:30 - 14:45", "topic": "BREAK (15 mins)", "location": "", "speakers": ""},
+		{ "time" : "14:45 - 16:00", "topic": "Push Button CI/CD with OpenShift", "location": "", "speakers": "Tariq Islam"},
+		{ "time" : "16:00 - 17:00", "topic": "Red Hat Container Developer Kit (CDK)", "location": "", "speakers": "Tariq Islam"},
 		{ "time" : "17:00 - 18:00", "topic": "Networking Event", "location": "", "speakers": ""}
 	],
 	thursday 	: [
