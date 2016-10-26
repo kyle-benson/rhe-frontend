@@ -55,7 +55,7 @@ var dailyAgenda = {
 	wednesday  :  [
 		{ "time" : "10:30 - 11:30", "topic": "Advantages in Moving to JBoss EAP", "location": "", "speakers": "Jim Tyrrell"},
 		{ "time" : "11:30 - 12:00", "topic": "OpenShift - Containers Made Easy to Use", "location": "", "speakers": "Michael Surbey"},
-		{ "time" : "12:00 - 13:15", "topic": "LUNCH + LAB", "location": "", "speakers": ""},
+		{ "time" : "12:00 - 13:15", "topic": "LUNCH + LAB (45 mins)", "location": "", "speakers": ""},
 		{ "time" : "13:15 - 14:30", "topic": "JEE Apps and OpenShift Container Platform", "location": "", "speakers": "Michelle Davis"},
 		{ "time" : "14:30 - 14:45", "topic": "BREAK (15 mins)", "location": "", "speakers": ""},
 		{ "time" : "14:45 - 16:00", "topic": "Push Button CI/CD with OpenShift", "location": "", "speakers": "Tariq Islam"},
@@ -63,12 +63,12 @@ var dailyAgenda = {
 		{ "time" : "17:00 - 18:00", "topic": "Networking Event", "location": "", "speakers": ""}
 	],
 	thursday 	: [
-			{ "time" : "10:30 - 11:30", "topic": "infrastructure Technology Update", "location": "", "speakers": "Frank Hum, Maa Nuiriankh"},
-			{ "time" : "11:30 - 12:15", "topic": "Lunch Break", "location": "", "speakers": ""},
-			{ "time" : "12:15 - 13:15", "topic": "Open Hybrid Cloud Management", "location": "", "speakers": "Lucy Kerner"},
-			{ "time" : "13:15 - 14:30", "topic": "Software Defined Storage", "location": "", "speakers": "Bob Buckley, Mike Flannery"},
-			{ "time" : "14:30 - 14:45", "topic": "Take 15 (Break)", "location": "", "speakers": ""},
-			{ "time" : "14:45 - 16:00", "topic": "Infrastructure Modernization", "location": "", "speakers": "Maa Nuiriankh, Gerald Dykeman"},
+			{ "time" : "10:30 - 11:30", "topic": "Infrastructure Technology Update", "location": "", "speakers": "Frank Hum, Ma'a Nuiriankh"},
+			{ "time" : "11:30 - 12:15", "topic": "LUNCH (45 mins)", "location": "", "speakers": ""},
+			{ "time" : "12:15 - 13:15", "topic": "Ansible Tower", "location": "", "speakers": "Ma'a Nuiriankh, Gerald Dykeman"},
+			{ "time" : "13:15 - 14:30", "topic": "Software Defined Storage", "location": "", "speakers": "Bob Buckley"},
+			{ "time" : "14:30 - 14:45", "topic": "BREAK (15 mins)", "location": "", "speakers": ""},
+			{ "time" : "14:45 - 16:00", "topic": "Open Hybrid Cloud Management", "location": "", "speakers": "Lucy Kerner"},
 			{ "time" : "16:00 - 17:00", "topic": "OpenShift Container Management", "location": "", "speakers": "Kyle Benson"},
 			{ "time" : "17:00 - 18:00", "topic": "Networking Event", "location": "", "speakers": ""}
 	]
