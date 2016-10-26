@@ -391,26 +391,26 @@ var breakoutSchedules = {
 	],
 	"ceph" : [
 		{
-			"what" : 	"A robust, massively scalable block and object storage platform for enterprises deploying public or private clouds, Red Hat Ceph Storage is a modern storage system for the cloud. " +
+			"what" : 	"<p>A robust, massively scalable block and object storage platform for enterprises deploying public or private clouds, Red Hat Ceph Storage is a modern storage system for the cloud. " +
 								"The product's highly tunable, extensible, and configurable architecture offers mature interfaces for enterprise block and object storage, making it well suited for archival, rich media, " +
 								"and cloud infrastructure workloads like OpenStack. Red Hat Ceph Storage significantly lowers the cost of storing enterprise data and helps enterprises manage exponential data growth. " +
-								"Delivered in one self-healing, self-managing platform with no single point of failure, Red Hat Ceph Storage handles data management so businesses can focus on improving data availability." +
-								"Business Benefits:</br>" +
-								"- Lower cost</br>" +
-								"- Open source</br>" +
-								"- Peace of mind</br>" +
-								"- Proven at web scale</br></br>" +
-								"Technical Benefits:</br>" +
-								"- Massive scalability</br>" +
-								"- Maximum uptime</br>" +
-								"- Reduced maintenance</br>" +
-								"- Operational efficiency</br>",
-			"use" : 	"Deeply Integrated Storage for OpenStack (Nova, Cinder, Manila, Glance, Keystone, Swift).</br>" +
-								"Cost-effective, scalable deployments for big data analytics, multimedia content, cloud applications and large-scale enterprise file stores.</br>" +
-								"Petabyte-scale Storage for objects. Works with industry-standard APIs.",
-			"probe" : "What storage technology are you currently using for your project?</br>" +
-								"Does the technology scale flexibly and cost effectively with commodity hardware?</br>" +
-								"What challenges are you facing with your current storage infrastructure?",
+								"Delivered in one self-healing, self-managing platform with no single point of failure, Red Hat Ceph Storage handles data management so businesses can focus on improving data availability.</p>" +
+								"<p><ul><u>Business Benefits</u>" +
+								"<li>Lower cost</li>" +
+								"<li>Open source</li>" +
+								"<li>Peace of mind</li>" +
+								"<li>Proven at web scale</li>" +
+								"<br/><u>Technical Benefits</u>" +
+								"<li>Massive scalability</li>" +
+								"<li>Maximum uptime</li>" +
+								"<li>Reduced maintenance</li>" +
+								"<li>Operational efficiency</li></ul></p>",
+			"use" : 	"<p><ul><li>Deeply Integrated Storage for OpenStack (Nova, Cinder, Manila, Glance, Keystone, Swift).</li>" +
+								"<li>Cost-effective, scalable deployments for big data analytics, multimedia content, cloud applications and large-scale enterprise file stores.</li>" +
+								"<li>Petabyte-scale Storage for objects. Works with industry-standard APIs.</li></ul></p>",
+			"probe" : "<p><ol><li>What storage technology are you currently using for your project?</li>" +
+								"<li>Does the technology scale flexibly and cost effectively with commodity hardware?</li>" +
+								"<li>What challenges are you facing with your current storage infrastructure?</li>",
 			"info" : 	"<p><ul>" +
 								"<li><a href='http://www.redhat.com/storage' target='_blank'>Ceph</a></li>" +
 								"<li><a href='http://www.youtube.com/user/redhatstorage' target='_blank'>Youtube</a></li>" +
