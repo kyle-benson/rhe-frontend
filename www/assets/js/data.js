@@ -55,7 +55,7 @@ var dailyAgenda = {
 	wednesday  :  [
 		{ "time" : "10:30 - 11:30", "topic": "Advantages in Moving to JBoss EAP", "location": "", "speakers": "Jim Tyrrell"},
 		{ "time" : "11:30 - 12:00", "topic": "OpenShift - Containers Made Easy to Use", "location": "", "speakers": "Michael Surbey"},
-		{ "time" : "12:00 - 13:15", "topic": "LUNCH + LAB (45 mins)", "location": "", "speakers": ""},
+		{ "time" : "12:00 - 13:15", "topic": "LUNCH + OpenShift Lab", "location": "", "speakers": ""},
 		{ "time" : "13:15 - 14:30", "topic": "JEE Apps and OpenShift Container Platform", "location": "", "speakers": "Michelle Davis"},
 		{ "time" : "14:30 - 14:45", "topic": "BREAK (15 mins)", "location": "", "speakers": ""},
 		{ "time" : "14:45 - 16:00", "topic": "Push Button CI/CD with OpenShift", "location": "", "speakers": "Tariq Islam"},
