@@ -47,7 +47,7 @@ var dailyAgenda = {
 	tuesday 	: [
 		{ "time" : "08:30 - 08:45", "topic": "Check-in @ Patner Training 2016", "location": "Tysons Marriott", "speakers": "", "notes" : ""},
 		{ "time" : "08:45 - 09:00", "topic": "Welcome & Intro", "location": "", "speakers": "Tim Miller", "notes" : ""},
-		{ "time" : "09:00 - 09:30", "topic": "Keynote: Digital Transformation", "location": "", "speakers": "Adam Clater", "notes" : ""},
+		{ "time" : "09:00 - 09:30", "topic": "Containerization - The Strategic Differentiator", "location": "", "speakers": "Adam Clater", "notes" : ""},
 		{ "time" : "09:30 - 10:00", "topic": "State of the Technology", "location": "", "speakers": "Tim Olson, Evong Nham", "notes" : ""},
 		{ "time" : "10:00 - 10:15", "topic": "FREE Partner Technical Resources", "location": "", "speakers": "Anita Devadason", "notes" : ""},
 		{ "time" : "10:15 - 10:30", "topic": "BREAK (15 mins)", "location": "", "speakers": "", "notes" : ""}
