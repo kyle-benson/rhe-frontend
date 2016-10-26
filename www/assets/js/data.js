@@ -65,8 +65,8 @@ var dailyAgenda = {
 	thursday 	: [
 			{ "time" : "10:30 - 11:30", "topic": "Infrastructure Technology Update", "location": "", "speakers": "Frank Hum, Ma'a Nuiriankh"},
 			{ "time" : "11:30 - 12:15", "topic": "LUNCH (45 mins)", "location": "", "speakers": ""},
-			{ "time" : "12:15 - 13:15", "topic": "Ansible Tower", "location": "", "speakers": "Ma'a Nuiriankh, Gerald Dykeman"},
-			{ "time" : "13:15 - 14:30", "topic": "Software Defined Storage", "location": "", "speakers": "Bob Buckley"},
+			{ "time" : "12:15 - 13:30", "topic": "Ansible Tower", "location": "", "speakers": "Ma'a Nuiriankh, Gerald Dykeman"},
+			{ "time" : "13:30 - 14:30", "topic": "Software Defined Storage", "location": "", "speakers": "Bob Buckley"},
 			{ "time" : "14:30 - 14:45", "topic": "BREAK (15 mins)", "location": "", "speakers": ""},
 			{ "time" : "14:45 - 16:00", "topic": "Open Hybrid Cloud Management", "location": "", "speakers": "Lucy Kerner"},
 			{ "time" : "16:00 - 17:00", "topic": "OpenShift Container Management", "location": "", "speakers": "Kyle Benson"},
