@@ -413,17 +413,17 @@ var breakoutSchedules = {
 								"<li>What challenges are you facing with your current storage infrastructure?</li>",
 			"info" : 	"<p><ul>" +
 								"<li><a href='http://www.redhat.com/storage' target='_blank'>Ceph</a></li>" +
-								"<li><a href='http://www.youtube.com/user/redhatstorage' target='_blank'>Youtube</a></li>" +
+								"<li><a href='http://bit.ly/2e8mc6X' target='_blank'>Red Hat Storage</a></li>" +
 								"<li><a href='http://red.ht/cephtestdrive' target='_blank'>Red Hat Storage Test-Drive</a></li>" +
 								"<li><a href='https://engage.redhat.com/gartnermagic-quadrant-storage-s-201610121525' target='_blank'>Gartner Magic Quadrant report - Red Hat named a Visionary</a></li></ul></p>"
 		}
 	],
 	"consulting" : [
 		{
-			"what" : 	"Red Hat Consulting offers more than just technical expertise to help partners when needed.</br></br>" +
-								"Red Hat Consulting offers a wide range of services and support to help government agencies take full advantage of open source solutions in order to maximize the value of Red Hat technologies. " +
+			"what" : 	"<p>Red Hat Consulting offers more than just technical expertise to help partners when needed.</p>" +
+								"<p>Red Hat Consulting offers a wide range of services and support to help government agencies take full advantage of open source solutions in order to maximize the value of Red Hat technologies. " +
 								"Whether agencies are looking to standardize and optimize their existing Red Hat Enterprise Linux environment or are moving to DevOps using containers, Red Hat Consulting can guide customers and " +
-								"partners through a seamless transition with professional services, training, mentoring and knowledge transfer.",
+								"partners through a seamless transition with professional services, training, mentoring and knowledge transfer.</p>",
 			"use" : 	"N/A",
 			"probe" : "N/A",
 			"info" : 	"<p><ul><li><a href='https://www.redhat.com/en/services/consulting' target='_blank'>Consulting Website</a></li></ul></p>"
@@ -431,9 +431,9 @@ var breakoutSchedules = {
 	],
 	"government" : [
 		{
-			"what" : 	"Your budget shrinks, but you have to deliver more every year—consolidate, build shared services, increase security, and prepare for emergency situations. " +
-								"The answer? Stable, trustworthy, and secure Red Hat open source solutions.</br></br>" +
-								"Red Hat technologies use the power of open source communities to make you more efficient, meet critical IT demands, and improve service delivery—all without vendor lock-in.",
+			"what" : 	"<p>Your budget shrinks, but you have to deliver more every year—consolidate, build shared services, increase security, and prepare for emergency situations. " +
+								"The answer? Stable, trustworthy, and secure Red Hat open source solutions.</p>" +
+								"<p>Red Hat technologies use the power of open source communities to make you more efficient, meet critical IT demands, and improve service delivery—all without vendor lock-in.</p>",
 			"use" : 	"N/A",
 			"probe" : "N/A",
 			"info" : 	"<p><ul><li><a href='http://www.redhat.com/government' target='_blank'>Government and Public Sector Website</a></li>" +
